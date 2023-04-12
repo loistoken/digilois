@@ -1,0 +1,5738 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Wolmart 1.0\n"
+"POT-Creation-Date: 2022-12-29 09:36-0800\n"
+"PO-Revision-Date: 2017-10-09 17:25+0800\n"
+"Last-Translator: wolmart <wolmart@example.com>\n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;"
+"esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;"
+"__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: inc/plugins/tgm-plugin-activation\n"
+"X-Poedit-SearchPathExcluded-1: inc/plugins/scssphp\n"
+"X-Poedit-SearchPathExcluded-2: assets\n"
+"X-Poedit-SearchPathExcluded-3: framework/templates/woocommerce/add-to-wishlist-added."
+"php\n"
+"X-Poedit-SearchPathExcluded-4: framework/templates/woocommerce/add-to-wishlist-browse."
+"php\n"
+"X-Poedit-SearchPathExcluded-5: framework/templates/woocommerce/add-to-wishlist-button."
+"php\n"
+"X-Poedit-SearchPathExcluded-6: framework/templates/woocommerce/archive-product.php\n"
+"X-Poedit-SearchPathExcluded-7: framework/templates/woocommerce/content-product.php\n"
+"X-Poedit-SearchPathExcluded-8: framework/templates/woocommerce/content-product-cat.php\n"
+"X-Poedit-SearchPathExcluded-9: framework/templates/woocommerce/content-single-product."
+"php\n"
+"X-Poedit-SearchPathExcluded-10: framework/templates/woocommerce/content-widget-product."
+"php\n"
+"X-Poedit-SearchPathExcluded-11: framework/templates/woocommerce/share.php\n"
+"X-Poedit-SearchPathExcluded-12: framework/templates/woocommerce/single-product.php\n"
+"X-Poedit-SearchPathExcluded-13: framework/templates/woocommerce/wishlist-view-header."
+"php\n"
+"X-Poedit-SearchPathExcluded-14: framework/templates/woocommerce/cart/cart-empty.php\n"
+"X-Poedit-SearchPathExcluded-15: framework/templates/woocommerce/cart/cross-sells.php\n"
+"X-Poedit-SearchPathExcluded-16: framework/templates/woocommerce/cart/proceed-to-"
+"checkout-button.php\n"
+"X-Poedit-SearchPathExcluded-17: framework/templates/woocommerce/checkout/form-billing."
+"php\n"
+"X-Poedit-SearchPathExcluded-18: framework/templates/woocommerce/checkout/form-checkout."
+"php\n"
+"X-Poedit-SearchPathExcluded-19: framework/templates/woocommerce/checkout/form-coupon."
+"php\n"
+"X-Poedit-SearchPathExcluded-20: framework/templates/woocommerce/checkout/form-pay.php\n"
+"X-Poedit-SearchPathExcluded-21: framework/templates/woocommerce/checkout/form-shipping."
+"php\n"
+"X-Poedit-SearchPathExcluded-22: framework/templates/woocommerce/checkout/terms.php\n"
+"X-Poedit-SearchPathExcluded-23: framework/templates/woocommerce/global/form-login.php\n"
+"X-Poedit-SearchPathExcluded-24: framework/templates/woocommerce/global/wrapper-end.php\n"
+"X-Poedit-SearchPathExcluded-25: framework/templates/woocommerce/global/wrapper-start."
+"php\n"
+"X-Poedit-SearchPathExcluded-26: framework/templates/woocommerce/loop/add-to-cart.php\n"
+"X-Poedit-SearchPathExcluded-27: framework/templates/woocommerce/loop/loop-end.php\n"
+"X-Poedit-SearchPathExcluded-28: framework/templates/woocommerce/loop/no-products-found."
+"php\n"
+"X-Poedit-SearchPathExcluded-29: framework/templates/woocommerce/loop/pagination.php\n"
+"X-Poedit-SearchPathExcluded-30: framework/templates/woocommerce/loop/price.php\n"
+"X-Poedit-SearchPathExcluded-31: framework/templates/woocommerce/loop/rating.php\n"
+"X-Poedit-SearchPathExcluded-32: framework/templates/woocommerce/myaccount/dashboard."
+"php\n"
+"X-Poedit-SearchPathExcluded-33: framework/templates/woocommerce/myaccount/form-edit-"
+"address.php\n"
+"X-Poedit-SearchPathExcluded-34: framework/templates/woocommerce/myaccount/my-account."
+"php\n"
+"X-Poedit-SearchPathExcluded-35: framework/templates/woocommerce/myaccount/navigation."
+"php\n"
+"X-Poedit-SearchPathExcluded-36: framework/templates/woocommerce/notices\n"
+"X-Poedit-SearchPathExcluded-37: framework/templates/woocommerce/order/order-downloads."
+"php\n"
+"X-Poedit-SearchPathExcluded-38: framework/templates/woocommerce/single-product/product-"
+"image.php\n"
+"X-Poedit-SearchPathExcluded-39: framework/templates/woocommerce/single-product/product-"
+"thumbnails.php\n"
+"X-Poedit-SearchPathExcluded-40: framework/templates/woocommerce/single-product/rating."
+"php\n"
+"X-Poedit-SearchPathExcluded-41: framework/templates/woocommerce/single-product/review-"
+"meta.php\n"
+"X-Poedit-SearchPathExcluded-42: framework/templates/woocommerce/single-product/sale-"
+"flash.php\n"
+"X-Poedit-SearchPathExcluded-43: framework/templates/woocommerce/single-product/share."
+"php\n"
+"X-Poedit-SearchPathExcluded-44: framework/templates/woocommerce/single-product/short-"
+"description.php\n"
+"X-Poedit-SearchPathExcluded-45: framework/templates/woocommerce/single-product/title."
+"php\n"
+"X-Poedit-SearchPathExcluded-46: framework/templates/woocommerce/single-product/tabs\n"
+"X-Poedit-SearchPathExcluded-47: dokan/store.php\n"
+"X-Poedit-SearchPathExcluded-48: dokan/store-header.php\n"
+"X-Poedit-SearchPathExcluded-49: dokan/store-lists-loop.php\n"
+"X-Poedit-SearchPathExcluded-50: dokan/store-sidebar.php\n"
+"X-Poedit-SearchPathExcluded-51: dokan/dashboard\n"
+"X-Poedit-SearchPathExcluded-52: dokan/products\n"
+"X-Poedit-SearchPathExcluded-53: dokan/widgets\n"
+"X-Poedit-SearchPathExcluded-54: dokan/global/seller-registration-form.php\n"
+"X-Poedit-SearchPathExcluded-55: dc-product-vendor/archive_vendor_info.php\n"
+"X-Poedit-SearchPathExcluded-56: dc-product-vendor/shortcode\n"
+"X-Poedit-SearchPathExcluded-57: dc-product-vendor/single-product\n"
+"X-Poedit-SearchPathExcluded-58: dc-product-vendor/widget\n"
+"X-Poedit-SearchPathExcluded-59: wc-vendors/dashboard\n"
+"X-Poedit-SearchPathExcluded-60: wc-vendors/front\n"
+"X-Poedit-SearchPathExcluded-61: wcfm/store\n"
+"X-Poedit-SearchPathExcluded-62: wcfm/store-lists\n"
+"X-Poedit-SearchPathExcluded-63: wcfm/sold-by/wcfmmp-view-sold-by-simple.php\n"
+"X-Poedit-SearchPathExcluded-64: framework/admin/plugins/tgm-plugin-activation/class-tgm-"
+"plugin-activation.php\n"
+
+#: 404.php:31
+msgid "Oops!!!"
+msgstr ""
+
+#: 404.php:32
+msgid "Something Went Wrong Here"
+msgstr ""
+
+#: 404.php:34
+msgid ""
+"There may be a misspelling in the URL entered, or the page you are looking for may no "
+"longer exist"
+msgstr ""
+
+#: 404.php:35
+msgid "Go Back Home"
+msgstr ""
+
+#: comments.php:24
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:24
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:24
+msgid "% Comment"
+msgid_plural "% Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:58
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:68 framework/admin/importer/theme-wordpress-importer.php:476
+#: framework/admin/importer/wordpress-importer.php:374
+#: framework/templates/woocommerce/single-product-reviews.php:113
+msgid "Submit"
+msgstr ""
+
+#: comments.php:68 framework/theme-actions.php:859
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:78
+#: dc-product-vendor/vendor-dashboard/product-manager/views/html-product-attribute.php:30
+#: framework/plugins/wcmp/wcmp.php:319 framework/plugins/woocommerce/woo-functions.php:589
+#: framework/templates/woocommerce/single-product-reviews.php:121
+msgid "Name"
+msgstr ""
+
+#: comments.php:79 framework/plugins/wcmp/wcmp.php:323
+#: framework/templates/woocommerce/single-product-reviews.php:127
+#: framework/theme-functions.php:113
+msgid "Email"
+msgstr ""
+
+#: comments.php:81
+msgid "Comment"
+msgstr ""
+
+#: dc-product-vendor/review/rating.php:27
+msgid "Rating From"
+msgstr ""
+
+#: dc-product-vendor/review/rating.php:30
+msgid "Products reviews"
+msgstr ""
+
+#: dc-product-vendor/review/rating.php:30
+msgid "Product review"
+msgstr ""
+
+#: dc-product-vendor/review/rating.php:32 framework/plugins/wcmp/wcmp.php:355
+msgid "Reviews"
+msgstr ""
+
+#: dc-product-vendor/review/rating.php:32
+msgid "Review"
+msgstr ""
+
+#: dc-product-vendor/review/rating.php:46
+msgid " No Review Yet "
+msgstr ""
+
+#: dc-product-vendor/vendor-dashboard/product-manager/views/html-product-attribute.php:21
+#: framework/addons/product-data-addons/product-data-addons-admin.php:57
+#: framework/addons/product-data-addons/product-data-addons-admin.php:89
+#: framework/admin/customizer/customizer.php:466
+#: framework/plugins/yith-gift-card/yith-gift-card.php:39
+msgid "Remove"
+msgstr ""
+
+#: dc-product-vendor/vendor-dashboard/product-manager/views/html-product-attribute.php:43
+msgid "Value(s)"
+msgstr ""
+
+#: dc-product-vendor/vendor-dashboard/product-manager/views/html-product-attribute.php:53
+msgid "Select terms"
+msgstr ""
+
+#: dc-product-vendor/vendor-dashboard/product-manager/views/html-product-attribute.php:70
+msgid "Select all"
+msgstr ""
+
+#: dc-product-vendor/vendor-dashboard/product-manager/views/html-product-attribute.php:71
+msgid "Select none"
+msgstr ""
+
+#: dc-product-vendor/vendor-dashboard/product-manager/views/html-product-attribute.php:78
+#, php-format
+msgid "Enter some text, or some attributes by \"%s\" separating values."
+msgstr ""
+
+#: dc-product-vendor/vendor-dashboard/product-manager/views/html-product-attribute.php:85
+msgid "Visible on the product page"
+msgstr ""
+
+#: dc-product-vendor/vendor-dashboard/product-manager/views/html-product-attribute.php:96
+msgid "Used for variations"
+msgstr ""
+
+#: dc-product-vendor/vendor-dashboard/product-manager/views/html-product-data-attributes.php:21
+msgid "Custom product attribute"
+msgstr ""
+
+#: dc-product-vendor/vendor-dashboard/product-manager/views/html-product-data-attributes.php:36
+#: framework/admin/customizer/customizer.php:483
+#: framework/templates/woocommerce/myaccount/my-address.php:95
+msgid "Add"
+msgstr ""
+
+#: dc-product-vendor/vendor-dashboard/product-manager/views/html-product-data-attributes.php:42
+#: dc-product-vendor/vendor-dashboard/product-manager/views/html-product-data-attributes.php:74
+#: framework/addons/product-image-swatch/product-image-swatch-admin.php:124
+msgid "Expand"
+msgstr ""
+
+#: dc-product-vendor/vendor-dashboard/product-manager/views/html-product-data-attributes.php:42
+#: dc-product-vendor/vendor-dashboard/product-manager/views/html-product-data-attributes.php:74
+#: framework/addons/layout-builder/layout-builder-admin.php:94
+#: framework/addons/product-image-swatch/product-image-swatch-admin.php:124
+#: framework/templates/woocommerce/cart/mini-cart.php:28
+msgid "Close"
+msgstr ""
+
+#: dc-product-vendor/vendor-dashboard/product-manager/views/html-product-data-attributes.php:71
+msgid "Save attributes"
+msgstr ""
+
+#: dc-product-vendor/vendor_tab.php:46 dokan/global/product-tab.php:34
+msgid "No ratings found yet!"
+msgstr ""
+
+#: dc-product-vendor/vendor_tab.php:49 dokan/global/product-tab.php:37
+#, php-format
+msgid "Rated %1$s out of %2$d"
+msgstr ""
+
+#: dc-product-vendor/vendor_tab.php:59 dokan/global/product-tab.php:47
+#: framework/templates/woocommerce/single-product-reviews.php:52
+#, php-format
+msgid "(%s Reviews)"
+msgstr ""
+
+#: dc-product-vendor/vendor_tab.php:70 dokan/global/product-tab.php:58
+#: wcfm/sold-by/wcfmmp-view-sold-by-tab.php:88
+msgid "Store Name:"
+msgstr ""
+
+#: dc-product-vendor/vendor_tab.php:79 dokan/global/product-tab.php:67
+#: wcfm/sold-by/wcfmmp-view-sold-by-tab.php:96
+msgid "Address:"
+msgstr ""
+
+#: dc-product-vendor/vendor_tab.php:88 dokan/global/product-tab.php:80
+#: wcfm/sold-by/wcfmmp-view-sold-by-tab.php:114
+msgid "Phone:"
+msgstr ""
+
+#: dc-product-vendor/vendor_tab.php:96 dokan/global/product-tab.php:89
+#: wcfm/sold-by/wcfmmp-view-sold-by-tab.php:123
+msgid "Visit Store"
+msgstr ""
+
+#: dokan/global/product-tab.php:72
+msgid ", "
+msgstr ""
+
+#: dokan/store-lists-filter.php:27 framework/addons/studio/blocks-wrapper.php:119
+msgid "Filter"
+msgstr ""
+
+#: dokan/store-lists-filter.php:31
+msgid "Total store showing"
+msgstr ""
+
+#: dokan/store-lists-filter.php:38 dokan/store-lists-filter.php:40
+msgid "Sort by"
+msgstr ""
+
+#: dokan/store-lists-filter.php:41
+#: framework/addons/layout-builder/layout-builder-admin.php:84
+#: framework/addons/layout-builder/layout-builder.php:119
+#: framework/addons/layout-builder/layout-builder.php:241
+#: framework/addons/product-image-swatch/product-image-swatch-admin.php:77
+#: framework/admin/customizer/customizer.php:1333
+#: framework/admin/customizer/customizer.php:2365
+#: framework/admin/customizer/customizer.php:2412 framework/plugins/dokan/dokan.php:423
+#: framework/plugins/wcfm/wcfm.php:465
+msgid "Default"
+msgstr ""
+
+#: dokan/store-lists-filter.php:68
+msgid "Search Vendors"
+msgstr ""
+
+#: dokan/store-lists-filter.php:77
+#: framework/addons/product-image-swatch/product-image-swatch-admin.php:126
+msgid "Cancel"
+msgstr ""
+
+#: dokan/store-lists-filter.php:78
+msgid "Apply"
+msgstr ""
+
+#: footer.php:64
+#, php-format
+msgid "Wolmart eCommerce &copy; %s. All Rights Reserved"
+msgstr ""
+
+#: footer.php:76
+msgid "Top"
+msgstr ""
+
+#: framework/addons/comments-pagination/comments-pagination.php:54
+#: framework/templates/woocommerce/single-product-reviews.php:223
+#: framework/theme-functions.php:455 framework/theme-functions.php:525
+#: framework/theme-functions.php:527
+msgid "Prev"
+msgstr ""
+
+#: framework/addons/comments-pagination/comments-pagination.php:55
+#: framework/templates/woocommerce/myaccount/orders.php:106
+#: framework/templates/woocommerce/single-product-reviews.php:224
+#: framework/theme-functions.php:456 framework/theme-functions.php:530
+#: framework/theme-functions.php:532
+msgid "Next"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:85
+#: framework/addons/layout-builder/layout-builder-admin.php:183
+#: framework/addons/studio/blocks-wrapper.php:23
+#: framework/admin/customizer/customizer.php:1421
+#: framework/admin/setup-wizard/views/demo.php:41
+#: framework/templates/woocommerce/loop/loop-start.php:237
+msgid "All"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:86
+msgid "Hide"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:87
+#: framework/addons/studio/studio.php:76
+msgid "My Templates"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:88
+msgid "Duplicate"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:89
+msgid "Options"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:90
+msgid "Apply this "
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:91
+msgid " for:"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:92
+msgid "Delete"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:93
+msgid "Open"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:95
+msgid "Copy Options"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:96
+msgid "Paste Options"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:97
+msgid "Do you want to delete this layout?"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:98
+msgid "Create Layout for "
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:116
+msgid "All Layouts"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:119
+#: framework/admin/customizer/customizer.php:1059 framework/theme-options.php:150
+msgid "Home"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:124
+#: framework/admin/customizer/customizer.php:1060
+#: framework/admin/customizer/customizer.php:1638
+msgid "Shop"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:128
+#: framework/addons/layout-builder/layout-builder.php:572
+#: framework/admin/customizer/customizer.php:506
+#: framework/admin/customizer/customizer.php:1234
+msgid "Blog"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:131
+#: framework/admin/customizer/customizer.php:626
+#: framework/admin/customizer/customizer.php:1065
+#: framework/admin/customizer/customizer.php:1413 framework/theme-actions.php:611
+#: framework/theme-functions.php:1044 framework/theme-options.php:160 searchform.php:100
+#: searchform.php:135
+msgid "Search"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:134
+msgid "All Post Types"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:139
+msgid "Page"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:143
+msgid "Product Detail"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:147
+msgid "Post Detail"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:150
+msgid "404 Page"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:190
+#: framework/addons/layout-builder/layout-builder-admin.php:228
+#: framework/theme-options.php:152
+msgid "Categories"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:202
+msgid "Brands"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:214
+#: framework/addons/layout-builder/layout-builder-admin.php:240
+#: framework/admin/customizer/customizer.php:1297
+msgid "Tags"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:255
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:263
+msgid "All Shop Pages"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:265
+msgid "All Blog Pages"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:267
+msgid "All Pages"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:278
+msgid "All Product Pages"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:280
+msgid "All Post Pages"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:301
+#, php-format
+msgid "Select Individual %s"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:320
+#, php-format
+msgid "%s Layout"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:338
+#: framework/admin/admin/admin.php:221 framework/admin/customizer/customizer.php:761
+#: framework/admin/customizer/customizer.php:774 framework/admin/panel/panel.php:42
+#: framework/admin/panel/panel.php:44 framework/admin/panel/views/header.php:113
+msgid "Layout Builder"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:339
+msgid "Create remarkable site with fully customizable layouts and online library."
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:341
+msgid "Save Layouts"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:346
+msgid "General Settings"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:349
+#: framework/addons/layout-builder/layout-builder.php:89
+#: framework/addons/studio/studio.php:70 framework/admin/customizer/customizer.php:527
+msgid "Header"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:352
+msgid "Page Header"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:355
+#: framework/addons/layout-builder/layout-builder.php:129
+msgid "Top Block"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:358
+msgid "Horizontal Filter"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:362
+#: framework/addons/layout-builder/layout-builder-admin.php:376
+msgid "Sidebar"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:366
+msgid "Inner Top"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:369
+#: framework/admin/customizer/customizer.php:2104
+msgid "Content"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:372
+msgid "Inner Bottom"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:380
+#: framework/addons/layout-builder/layout-builder.php:135
+msgid "Bottom Block"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:383
+#: framework/addons/layout-builder/layout-builder.php:95
+#: framework/addons/studio/studio.php:71 framework/admin/customizer/customizer.php:532
+msgid "Footer"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder-admin.php:430
+#: framework/admin/optimize-wizard/optimize-wizard.php:484
+#: framework/admin/optimize-wizard/optimize-wizard.php:523
+msgid "Nonce Error"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:56
+msgid "Wrap"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:60
+#: framework/addons/layout-builder/layout-builder.php:120
+msgid "Container"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:64
+#: framework/addons/layout-builder/layout-builder.php:121
+msgid "Container Fluid"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:68
+#: framework/addons/layout-builder/layout-builder.php:122
+msgid "Full"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:74
+#: framework/addons/studio/studio.php:73
+msgid "Popup"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:78
+msgid "Popup Delay"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:83
+msgid "Top Notice Block"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:101
+#: framework/admin/customizer/customizer.php:578
+msgid "Page Title Bar"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:105
+#: framework/admin/customizer/customizer.php:945
+msgid "Page Title"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:109
+#: framework/admin/customizer/customizer.php:951
+msgid "Page Subtitle"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:113
+msgid "Show Breadcrumb"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:117
+msgid "Breadcrumb Wrap"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:141
+msgid "Inner Top Block"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:147
+msgid "Inner Bottom Block"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:153
+msgid "Horizontal Filter Widgets"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:159
+msgid "Left Sidebar"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:163
+msgid "Sidebar Type"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:167
+#: framework/addons/layout-builder/layout-builder.php:191
+msgid "Classic"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:171
+#: framework/addons/layout-builder/layout-builder.php:195
+#: framework/admin/customizer/customizer.php:2073
+msgid "Off Canvas"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:177
+#: framework/addons/layout-builder/layout-builder.php:201
+msgid "Sidebar Width"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:183
+msgid "Right Sidebar"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:187
+msgid "Right Sidebar Type"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:207
+msgid "Error Block"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:213
+#: framework/admin/customizer/customizer.php:1169
+msgid "Post Type"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:215
+#: framework/admin/customizer/customizer.php:1181
+msgid "Simple"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:216
+#: framework/admin/customizer/customizer.php:1182
+msgid "Mask"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:217
+#: framework/admin/customizer/customizer.php:1183
+msgid "List"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:222
+msgid "Posts Layout"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:224
+#: framework/admin/customizer/customizer.php:1247
+msgid "Grid"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:225
+#: framework/addons/layout-builder/layout-builder.php:245
+#: framework/admin/customizer/customizer.php:1248
+#: framework/admin/customizer/customizer.php:2198
+msgid "Masonry"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:230
+msgid "Posts Column"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:239
+msgid "Single Product Type"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:242
+#: framework/admin/customizer/customizer.php:2196
+msgid "Vertical Thumbs"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:243
+#: framework/admin/customizer/customizer.php:2195
+msgid "Horizontal Thumbs"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:244
+#: framework/admin/customizer/customizer.php:2197
+msgid "Grid Images"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:246
+#: framework/admin/customizer/customizer.php:2199
+msgid "Gallery"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:247
+#: framework/admin/customizer/customizer.php:2200
+msgid "Sticky Information"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:248
+#: framework/admin/customizer/customizer.php:2201
+msgid "Sticky Thumbs"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:249
+#: framework/admin/customizer/customizer.php:2202
+msgid "Left &amp; Right Sticky"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:250
+msgid "Use Builder"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:255
+#: framework/admin/customizer/customizer.php:2193
+msgid "Single Product Layout"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:259
+#: framework/admin/customizer/customizer.php:2228
+#: framework/admin/customizer/customizer.php:2233
+msgid "Product Data Type"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:261
+#: framework/admin/customizer/customizer.php:2235
+msgid "Tab"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:262
+#: framework/admin/customizer/customizer.php:2236
+msgid "Accordion"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:263
+#: framework/admin/customizer/customizer.php:2237
+msgid "Section"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:274
+#: framework/admin/customizer/customizer.php:2140 framework/plugins/dokan/dokan.php:375
+msgid "Products Column"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:280
+#: framework/admin/customizer/customizer.php:1273
+#: framework/admin/customizer/customizer.php:1797
+#: framework/templates/woocommerce/loop/loop-start.php:102
+#: framework/theme-functions.php:434
+msgid "Load More"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:298
+#: framework/admin/customizer/customizer.php:1819
+msgid "Products Count Select"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:299
+#: framework/admin/customizer/customizer.php:1820
+msgid "Input numbers of count select box(9, _12, 24, 36)."
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:560
+#, php-format
+msgid "Products tagged &ldquo;%s&rdquo;"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:575
+msgid "Search Results Found"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:576
+msgid "You searched for:"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:582
+msgid "This author has written"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:582
+msgid "articles"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:588
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:591
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:591
+msgctxt "Page title monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:595
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:595
+msgctxt "Page title yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: framework/addons/layout-builder/layout-builder.php:607
+#: framework/addons/studio/studio.php:74
+msgid "Error 404"
+msgstr ""
+
+#: framework/addons/live-search/live-search.php:67
+#: framework/addons/live-search/live-search.php:78
+msgid "(no title)"
+msgstr ""
+
+#: framework/addons/product-buy-now/product-buy-now.php:44
+#: framework/addons/product-buy-now/product-buy-now.php:67
+msgid "Product Buy Now"
+msgstr ""
+
+#: framework/addons/product-buy-now/product-buy-now.php:74
+msgid "Show Buy Now Button"
+msgstr ""
+
+#: framework/addons/product-buy-now/product-buy-now.php:81
+msgid "Buy Now Text"
+msgstr ""
+
+#: framework/addons/product-buy-now/product-buy-now.php:95
+msgid "Buy Now Link"
+msgstr ""
+
+#: framework/addons/product-catalog/product-catalog.php:49
+msgid "Enable Catalog Mode"
+msgstr ""
+
+#: framework/addons/product-catalog/product-catalog.php:50
+msgid ""
+"Catalog mode is generally used to hide some product fields such as product price and "
+"add to cart button on shop and product detail page."
+msgstr ""
+
+#: framework/addons/product-catalog/product-catalog.php:56
+msgid "Show Price"
+msgstr ""
+
+#: framework/addons/product-catalog/product-catalog.php:69
+msgid "Show Add to Cart Button"
+msgstr ""
+
+#: framework/addons/product-catalog/product-catalog.php:82
+msgid "Show Product Review"
+msgstr ""
+
+#: framework/addons/product-custom-tab/product-custom-tab-admin.php:25
+msgid "Custom Description Tab "
+msgstr ""
+
+#: framework/addons/product-custom-tab/product-custom-tab-admin.php:41
+#: framework/addons/product-custom-tab/product-custom-tab-admin.php:67
+msgid "Tab Title"
+msgstr ""
+
+#: framework/addons/product-custom-tab/product-custom-tab-admin.php:46
+#: framework/addons/product-custom-tab/product-custom-tab-admin.php:72
+msgid "Tab Content"
+msgstr ""
+
+#: framework/addons/product-custom-tab/product-custom-tab-admin.php:89
+msgid "Save tabs"
+msgstr ""
+
+#: framework/addons/product-data-addons/product-data-addons-admin.php:26
+msgid "Wolmart Extra Options"
+msgstr ""
+
+#: framework/addons/product-data-addons/product-data-addons-admin.php:42
+#: framework/addons/product-data-addons/product-data-addons-admin.php:74
+msgid "Text"
+msgstr ""
+
+#: framework/addons/product-data-addons/product-data-addons-admin.php:43
+#: framework/addons/product-data-addons/product-data-addons-admin.php:75
+#: framework/addons/product-image-swatch/product-image-swatch-admin.php:78
+#: framework/addons/product-image-swatch/product-image-swatch-admin.php:85
+#: framework/plugins/wcfm/wcfm.php:466 framework/plugins/wcfm/wcfm.php:474
+msgid "Image"
+msgstr ""
+
+#: framework/addons/product-data-addons/product-data-addons-admin.php:47
+#: framework/addons/product-data-addons/product-data-addons-admin.php:79
+msgid "Color:"
+msgstr ""
+
+#: framework/addons/product-data-addons/product-data-addons-admin.php:49
+#: framework/addons/product-data-addons/product-data-addons-admin.php:81
+msgid "Bg Color:"
+msgstr ""
+
+#: framework/addons/product-data-addons/product-data-addons-admin.php:61
+msgid "Custom Labels"
+msgstr ""
+
+#: framework/addons/product-data-addons/product-data-addons-admin.php:62
+msgid "Add a Label"
+msgstr ""
+
+#: framework/addons/product-data-addons/product-data-addons-admin.php:63
+msgid ""
+"Add custom labels for this product. Custom labels will be shown just after theme "
+"supported labels."
+msgstr ""
+
+#: framework/addons/product-data-addons/product-data-addons-admin.php:101
+msgid "Save options"
+msgstr ""
+
+#: framework/addons/product-frequently-bought-together/product-frequently-bought-together-admin.php:50
+msgid "Wolmart Frequently Bought Together "
+msgstr ""
+
+#: framework/addons/product-frequently-bought-together/product-frequently-bought-together-admin.php:81
+msgid "Select Products"
+msgstr ""
+
+#: framework/addons/product-frequently-bought-together/product-frequently-bought-together-admin.php:82
+msgid "Select products for \"Frequently Bought Together\" group"
+msgstr ""
+
+#: framework/addons/product-frequently-bought-together/product-frequently-bought-together-admin.php:87
+msgid "Apply discount"
+msgstr ""
+
+#: framework/addons/product-frequently-bought-together/product-frequently-bought-together-admin.php:92
+msgid "Set discount type"
+msgstr ""
+
+#: framework/addons/product-frequently-bought-together/product-frequently-bought-together-admin.php:95
+msgid "Fixed"
+msgstr ""
+
+#: framework/addons/product-frequently-bought-together/product-frequently-bought-together-admin.php:96
+msgid "Percent"
+msgstr ""
+
+#: framework/addons/product-frequently-bought-together/product-frequently-bought-together-admin.php:105
+#: framework/addons/product-frequently-bought-together/product-frequently-bought-together-admin.php:116
+msgid "Discount amount"
+msgstr ""
+
+#: framework/addons/product-frequently-bought-together/product-frequently-bought-together-admin.php:131
+msgid "Discount condition"
+msgstr ""
+
+#: framework/addons/product-frequently-bought-together/product-frequently-bought-together-admin.php:140
+msgid "User spend at least"
+msgstr ""
+
+#: framework/addons/product-frequently-bought-together/product-frequently-bought-together-admin.php:151
+msgid "User choose at least"
+msgstr ""
+
+#: framework/addons/product-frequently-bought-together/product-frequently-bought-together-admin.php:152
+msgid "products"
+msgstr ""
+
+#: framework/addons/product-frequently-bought-together/product-frequently-bought-together-admin.php:228
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: framework/addons/product-frequently-bought-together/product-frequently-bought-together.php:164
+msgid "Discount:"
+msgstr ""
+
+#: framework/addons/product-frequently-bought-together/product-frequently-bought-together.php:417
+#, php-format
+msgid "For %1$s %2$s"
+msgstr ""
+
+#: framework/addons/product-frequently-bought-together/product-frequently-bought-together.php:417
+msgid "items"
+msgstr ""
+
+#: framework/addons/product-frequently-bought-together/product-frequently-bought-together.php:417
+msgid "item"
+msgstr ""
+
+#: framework/addons/product-frequently-bought-together/product-frequently-bought-together.php:421
+msgid "Add All To Cart"
+msgstr ""
+
+#: framework/addons/product-image-swatch/product-image-swatch-admin.php:20
+msgid "Image Change & Swatch"
+msgstr ""
+
+#: framework/addons/product-image-swatch/product-image-swatch-admin.php:48
+#, php-format
+msgid ""
+"Before you can add image swatch you need to add some %1$slist%2$s variations on the "
+"%1$sVariations%2$s tab."
+msgstr ""
+
+#: framework/addons/product-image-swatch/product-image-swatch-admin.php:49
+msgid "Learn more"
+msgstr ""
+
+#: framework/addons/product-image-swatch/product-image-swatch-admin.php:55
+#: framework/plugins/wcfm/wcfm.php:445
+msgid ""
+"This will replace product image with following uploaded image when attribute button is "
+"clicked."
+msgstr ""
+
+#: framework/addons/product-image-swatch/product-image-swatch-admin.php:75
+#: framework/plugins/wcfm/wcfm.php:463
+msgid "Button Type"
+msgstr ""
+
+#: framework/addons/product-image-swatch/product-image-swatch-admin.php:80
+#: framework/plugins/wcfm/wcfm.php:468
+msgid "Select button type as image to show image on button."
+msgstr ""
+
+#: framework/addons/product-image-swatch/product-image-swatch-admin.php:84
+#: framework/plugins/wcfm/wcfm.php:473
+msgid "Attribute"
+msgstr ""
+
+#: framework/addons/product-image-swatch/product-image-swatch-admin.php:107
+#: framework/plugins/wcfm/wcfm.php:496
+msgid "Thumbnail Preview"
+msgstr ""
+
+#: framework/addons/product-image-swatch/product-image-swatch-admin.php:109
+#: framework/plugins/wcfm/wcfm.php:498
+msgid "Upload/Add image"
+msgstr ""
+
+#: framework/addons/product-image-swatch/product-image-swatch-admin.php:110
+#: framework/plugins/wcfm/wcfm.php:499
+msgid "Remove image"
+msgstr ""
+
+#: framework/addons/product-image-swatch/product-image-swatch-admin.php:125
+#: framework/plugins/wcfm/wcfm.php:514
+#: framework/templates/woocommerce/myaccount/form-edit-account.php:88
+msgid "Save changes"
+msgstr ""
+
+#: framework/addons/product-image-swatch/product-image-swatch-admin.php:146
+#: framework/plugins/wcfm/wcfm.php:167
+msgid "Choose an image"
+msgstr ""
+
+#: framework/addons/product-image-swatch/product-image-swatch-admin.php:147
+#: framework/plugins/wcfm/wcfm.php:168
+msgid "Use image"
+msgstr ""
+
+#: framework/addons/studio/blocks-wrapper.php:15
+msgid "Close (Esc)"
+msgstr ""
+
+#: framework/addons/studio/blocks-wrapper.php:17 framework/addons/studio/studio.php:125
+msgid "Wolmart Studio"
+msgstr ""
+
+#: framework/addons/studio/blocks-wrapper.php:30
+#: framework/addons/studio/blocks-wrapper.php:125
+msgid "Blocks"
+msgstr ""
+
+#: framework/addons/studio/blocks-wrapper.php:88
+msgid "All in One Library"
+msgstr ""
+
+#: framework/addons/studio/blocks-wrapper.php:89
+msgid "Choose any type of template from our library."
+msgstr ""
+
+#: framework/addons/studio/blocks-wrapper.php:106
+#: framework/admin/setup-wizard/views/demo.php:58
+msgid "Select Demo"
+msgstr ""
+
+#: framework/addons/studio/blocks.php:21 framework/addons/studio/blocks.php:46
+msgid "Select"
+msgstr ""
+
+#: framework/addons/studio/blocks.php:21 framework/addons/studio/blocks.php:46
+#: framework/admin/customizer/customizer.php:1506
+#: framework/admin/setup-wizard/views/demo.php:166
+msgid "Import"
+msgstr ""
+
+#: framework/addons/studio/blocks.php:42
+msgid "Favourite"
+msgstr ""
+
+#: framework/addons/studio/studio.php:62 framework/admin/admin/admin.php:129
+msgid "Demo"
+msgstr ""
+
+#: framework/addons/studio/studio.php:63
+msgid "Banner"
+msgstr ""
+
+#: framework/addons/studio/studio.php:64
+msgid "Slider"
+msgstr ""
+
+#: framework/addons/studio/studio.php:65
+msgid "Call To Action"
+msgstr ""
+
+#: framework/addons/studio/studio.php:66 framework/admin/setup-wizard/views/demo.php:45
+#: framework/plugins/wcmp/wcmp.php:354
+#: framework/plugins/woocommerce/product-category.php:193
+msgid "Products"
+msgstr ""
+
+#: framework/addons/studio/studio.php:67 framework/admin/setup-wizard/views/demo.php:43
+msgid "Posts"
+msgstr ""
+
+#: framework/addons/studio/studio.php:68
+msgid "Testimonial"
+msgstr ""
+
+#: framework/addons/studio/studio.php:69
+msgid "Other"
+msgstr ""
+
+#: framework/addons/studio/studio.php:72
+msgid "Single Product"
+msgstr ""
+
+#: framework/addons/studio/studio.php:75
+msgid "Favourites"
+msgstr ""
+
+#: framework/addons/studio/studio.php:166
+msgid "Loading failed!"
+msgstr ""
+
+#: framework/addons/studio/studio.php:167
+msgid "There was an error when importing block. Please try again later!"
+msgstr ""
+
+#: framework/addons/studio/studio.php:168
+msgid "Coming Soon..."
+msgstr ""
+
+#: framework/addons/studio/studio.php:306
+msgid "Security issue found! Please try again later."
+msgstr ""
+
+#: framework/addons/studio/studio.php:735 framework/addons/studio/studio.php:790
+msgid "Could not connect to the API Server! Please try again later."
+msgstr ""
+
+#: framework/addons/walker/walker.php:68
+msgid "No Link"
+msgstr ""
+
+#: framework/addons/walker/walker.php:75
+msgid "Megamenu"
+msgstr ""
+
+#: framework/addons/walker/walker.php:81
+msgid "Megamenu Width (px)"
+msgstr ""
+
+#: framework/addons/walker/walker.php:88
+msgid "Megamenu Position"
+msgstr ""
+
+#: framework/addons/walker/walker.php:90
+msgid "Left"
+msgstr ""
+
+#: framework/addons/walker/walker.php:91
+msgid "Center"
+msgstr ""
+
+#: framework/addons/walker/walker.php:92
+msgid "Right"
+msgstr ""
+
+#: framework/addons/walker/walker.php:118
+msgid "Select A Block"
+msgstr ""
+
+#: framework/addons/walker/walker.php:129
+msgid "This option only works in megamenu."
+msgstr ""
+
+#: framework/addons/walker/walker.php:137
+msgid "Prefix Icon Class"
+msgstr ""
+
+#: framework/addons/walker/walker.php:139
+msgid "Wolmart Icon Store might be useful for you to select icons."
+msgstr ""
+
+#: framework/addons/walker/walker.php:145
+msgid "Add Label"
+msgstr ""
+
+#: framework/addons/walker/walker.php:147
+msgid "Select A Label"
+msgstr ""
+
+#: framework/admin/admin/admin.php:62 framework/admin/panel/panel.php:35
+#: framework/admin/panel/views/header.php:19
+msgid "License"
+msgstr ""
+
+#: framework/admin/admin/admin.php:73 framework/admin/panel/panel.php:38
+#: framework/admin/panel/views/header.php:141
+#: framework/admin/setup-wizard/views/demo.php:48
+msgid "Theme Options"
+msgstr ""
+
+#: framework/admin/admin/admin.php:84 framework/admin/panel/views/header.php:26
+msgid "Management"
+msgstr ""
+
+#: framework/admin/admin/admin.php:95 framework/admin/panel/views/header.php:37
+#: framework/admin/panel/views/header.php:54
+#: framework/admin/setup-wizard/setup-wizard.php:113
+#: framework/admin/setup-wizard/views/index.php:15
+msgid "Setup Wizard"
+msgstr ""
+
+#: framework/admin/admin/admin.php:104
+#: framework/templates/woocommerce/checkout/thankyou.php:52
+msgid "Status"
+msgstr ""
+
+#: framework/admin/admin/admin.php:112 framework/admin/setup-wizard/setup-wizard.php:178
+#: framework/admin/setup-wizard/views/customize.php:6
+msgid "Child Theme"
+msgstr ""
+
+#: framework/admin/admin/admin.php:120 framework/admin/admin/admin.php:181
+#: framework/admin/optimize-wizard/optimize-wizard.php:453
+#: framework/admin/optimize-wizard/views/plugins.php:4
+msgid "Plugins"
+msgstr ""
+
+#: framework/admin/admin/admin.php:137 framework/admin/admin/admin.php:189
+msgid "Ready"
+msgstr ""
+
+#: framework/admin/admin/admin.php:148
+#: framework/admin/optimize-wizard/optimize-wizard.php:77
+#: framework/admin/optimize-wizard/views/index.php:15
+#: framework/admin/panel/views/header.php:45 framework/admin/panel/views/header.php:62
+msgid "Optimize Wizard"
+msgstr ""
+
+#: framework/admin/admin/admin.php:157
+#: framework/admin/optimize-wizard/optimize-wizard.php:435
+msgid "Resources"
+msgstr ""
+
+#: framework/admin/admin/admin.php:165
+#: framework/admin/optimize-wizard/optimize-wizard.php:440
+#: framework/admin/optimize-wizard/views/lazyload.php:4
+msgid "Lazyload"
+msgstr ""
+
+#: framework/admin/admin/admin.php:173
+#: framework/admin/optimize-wizard/views/performance.php:4
+msgid "Performance"
+msgstr ""
+
+#: framework/admin/admin/admin.php:199 framework/admin/panel/views/header.php:71
+#: framework/admin/tools/tools.php:62
+msgid "Tools"
+msgstr ""
+
+#: framework/admin/admin/admin.php:211 framework/admin/panel/views/header.php:103
+msgid "Layouts"
+msgstr ""
+
+#: framework/admin/admin/admin.php:231
+msgid "All Templates"
+msgstr ""
+
+#: framework/admin/admin/admin.php:241 framework/admin/panel/views/header.php:131
+msgid "Sidebars"
+msgstr ""
+
+#: framework/admin/admin/admin.php:276
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: framework/admin/admin/admin.php:293 framework/admin/setup-wizard/views/demo.php:138
+msgid "Activate Theme"
+msgstr ""
+
+#: framework/admin/admin/admin.php:408
+msgid "Your ip address is blocked as spam!!!"
+msgstr ""
+
+#: framework/admin/admin/admin.php:410
+msgid "Purchase Code is not valid!!!"
+msgstr ""
+
+#: framework/admin/admin/admin.php:412
+#, php-format
+msgid "This code was already used in %s"
+msgstr ""
+
+#: framework/admin/admin/admin.php:414
+msgid "Please re-activate the theme."
+msgstr ""
+
+#: framework/admin/admin/admin.php:416
+msgid "Wolmart Theme is unregistered!"
+msgstr ""
+
+#: framework/admin/admin/admin.php:418
+msgid "Wolmart Theme is activated!"
+msgstr ""
+
+#: framework/admin/admin/admin.php:520
+#, php-format
+msgid "Please %s Wolmart theme to get access to pre-built demo websites and auto updates."
+msgstr ""
+
+#: framework/admin/admin/admin.php:520
+msgid "register"
+msgstr ""
+
+#: framework/admin/admin/admin.php:527
+msgid "Purchase Code is not valid or could not connect to the API server!"
+msgstr ""
+
+#: framework/admin/admin/admin.php:545
+msgid "View Details"
+msgstr ""
+
+#: framework/admin/admin/admin.php:578
+#, php-format
+msgid ""
+"Please %1$sregister%2$s wolmart theme to get access to pre-built demo websites and auto "
+"updates."
+msgstr ""
+
+#: framework/admin/admin/admin.php:580
+#, php-format
+msgid ""
+"%1$s Important! %2$s One %3$s standard license %4$s is valid for only %1$s1 website"
+"%2$s. Running multiple websites on a single license is a copyright violation."
+msgstr ""
+
+#: framework/admin/admin/admin.php:581
+msgid "Dismiss this notice."
+msgstr ""
+
+#: framework/admin/admin/admin.php:612
+#, php-format
+msgid "Please %1$sverify purchase%2$s to get updates!"
+msgstr ""
+
+#: framework/admin/admin/admin.php:631
+msgid "There is a problem contacting to the Wolmart API server. Please try again later."
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:410
+msgid "Navigator"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:445
+#: framework/admin/customizer/customizer.php:589
+#: framework/admin/customizer/customizer.php:1004
+#: framework/admin/customizer/customizer.php:1009
+msgid "Menu Labels"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:460
+msgid "Label Text to Change"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:462
+msgid "Label Background Color to Change"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:465
+msgid "Change"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:478
+msgid "Input Label Text"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:480
+msgid "Choose Label Background Color"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:498
+#: framework/admin/customizer/customizer.php:2156
+#: framework/admin/customizer/customizer.php:2175
+msgid "Style"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:502
+msgid "Menus"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:510
+#: framework/admin/setup-wizard/views/demo.php:47
+msgid "Widgets"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:514
+#: framework/admin/customizer/customizer.php:1687
+msgid "Advanced"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:522
+msgid "General"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:537
+#: framework/admin/customizer/customizer.php:1299 framework/theme-options.php:89
+msgid "Share"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:542
+msgid "Custom CSS & JS"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:547
+msgid "Site Identity"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:551
+msgid "Homepage Settings"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:555
+msgid "Color"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:559
+msgid "Header Image"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:563
+msgid "Background Image"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:568 framework/theme-options.php:83
+msgid "Color & Skin"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:573
+msgid "Typography"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:583
+#: framework/admin/customizer/customizer.php:959
+msgid "Breadcrumb"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:594
+#: framework/admin/customizer/customizer.php:1034
+msgid "Mobile Menu"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:599
+msgid "Mobile Sticky Icon Bar"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:605
+msgid "Blog Global"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:610
+msgid "Blog Page"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:615
+msgid "Post Page"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:621
+#: framework/admin/customizer/customizer.php:1368
+msgid "Lazy Load"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:631
+msgid "Image Size & Quality"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:636
+msgid "Import/Export/Reset"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:641
+msgid "SEO"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:646
+#: framework/admin/customizer/customizer.php:1556
+#: framework/admin/customizer/customizer.php:1561
+msgid "White Label"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:658
+msgid "Site Layout"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:674
+msgid "Site Type"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:685
+msgid "Site Width (px)"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:698
+msgid "Site Gap (px)"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:711
+msgid "Site Background"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:712
+msgid "Change background of outside the frame."
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:726
+msgid "Content Background"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:735
+msgid "Site Content"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:740
+msgid "Container Width (px)"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:746
+msgid "Container Fluid Width (px)"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:754
+msgid "Create your header template and show it in Layout Builder"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:757
+msgid "Header Builder"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:758
+#: framework/admin/customizer/customizer.php:772
+msgid "Please install Wolmart Core Plugin"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:759
+#: framework/admin/customizer/customizer.php:773
+#: framework/admin/setup-wizard/setup-wizard.php:185
+#: framework/admin/setup-wizard/views/plugins.php:4
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:768
+msgid "Create your footer template and show it in Layout Builder"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:774
+msgid "Footer Builder"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:781
+msgid "Colors"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:786
+msgid "Primary Color"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:795
+msgid "Secondary Color"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:804
+msgid "Dark Color"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:813
+msgid "Light Color"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:823
+msgid "Skin"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:828
+msgid "Rounded Skin"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:829
+msgid "Enable rounded border skin for banner, posts and so on."
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:835
+msgid "Default Typography"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:846
+msgid "Heading Typography"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:857
+msgid "Custom Google Fonts"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:862
+msgid "Select other google fonts to download"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:870
+msgid "Custom 1"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:871
+msgid "Custom 2"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:872
+msgid "Custom 3"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:878
+msgid "Custom Font 1"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:891
+msgid "Custom Font 2"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:904
+msgid "Custom Font 3"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:919
+msgid "Title Bar Style"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:925
+msgid "Title Bar Height (px)"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:932
+msgid "Title Bar Background"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:939
+msgid "Title Bar Typography"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:965
+msgid "Show Home Icon"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:971
+msgid "Breadcrumb Delimiter"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:977
+msgid "Use Icon for Delimiter"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:983
+msgid "Delimiter Icon"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:996
+msgid "Breadcrumb Typography"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1022
+msgid "New Label"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1040
+msgid "Mobile Menus"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1049
+msgid "Mobile Icon Bar"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1055
+msgid "Mobile Bar Icons"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1058
+msgid "Mobile Menu Toggle"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1061
+#: framework/admin/customizer/customizer.php:1888
+#: framework/plugins/woocommerce/woo-functions.php:658 framework/theme-options.php:154
+msgid "Wishlist"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1062 framework/theme-options.php:156
+msgid "Account"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1063
+#: framework/admin/customizer/customizer.php:1682
+#: framework/admin/customizer/customizer.php:1886
+#: framework/admin/customizer/customizer.php:2059
+#: framework/plugins/woocommerce/product-loop.php:699 framework/theme-functions.php:1014
+msgid "Compare"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1064
+#: framework/templates/woocommerce/cart/mini-cart.php:28 framework/theme-options.php:158
+msgid "Cart"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1066 framework/theme-options.php:162
+msgid "To Top"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1072
+msgid "Menu Label"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1078
+msgid "Menu Icon"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1084
+msgid "Home Label"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1090
+msgid "Home Icon"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1096
+msgid "Shop Label"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1102
+msgid "Shop Icon"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1108
+msgid "Wishlist Label"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1114
+msgid "Wishlist Icon"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1120
+msgid "Account Label"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1126
+msgid "Account Icon"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1132
+msgid "Cart Label"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1138
+msgid "Cart Icon"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1144
+msgid "Search Label"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1150
+msgid "Search Icon"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1156
+msgid "To Top Label"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1162
+msgid "To Top Icon"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1174
+#: framework/admin/customizer/customizer.php:1239
+msgid ""
+"Layout builder's \"Blog Layout/Content/Post Type\" option is prior than this in blog "
+"pages."
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1194
+msgid "Show Date Box"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1199
+#: framework/admin/customizer/customizer.php:1977
+msgid "Hover Effect"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1201
+#: framework/admin/customizer/customizer.php:1979
+msgid "None"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1202
+#: framework/admin/customizer/customizer.php:1980
+msgid "Light"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1203
+#: framework/admin/customizer/customizer.php:1981 framework/class-theme.php:155
+msgid "Dark"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1204
+#: framework/admin/customizer/customizer.php:1982
+msgid "Zoom"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1205
+#: framework/admin/customizer/customizer.php:1983
+msgid "Zoom and Light"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1206
+#: framework/admin/customizer/customizer.php:1984
+msgid "Zoom and Dark"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1213
+msgid "Excerpt"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1218
+#: framework/admin/customizer/customizer.php:1912
+msgid "Type"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1220
+#: framework/admin/customizer/customizer.php:1914
+msgid "Word"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1221
+#: framework/admin/customizer/customizer.php:1915
+msgid "Letter"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1227
+#: framework/admin/customizer/customizer.php:1921
+msgid "Length"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1244
+msgid "Layout"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1245
+msgid "Masonry layout will use uncropped images."
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1254
+#: framework/admin/customizer/customizer.php:1322
+#: framework/admin/customizer/customizer.php:1775
+#: framework/admin/customizer/customizer.php:2354
+msgid "Column"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1263
+msgid "Filter By Category"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1268
+#: framework/admin/customizer/customizer.php:2003
+msgid "Enable Ajax Filter"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1285
+#: framework/admin/customizer/customizer.php:1871
+msgid "Show Information"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1290
+#: framework/admin/customizer/customizer.php:1876
+msgid "Items to show"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1292
+msgid "Media"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1293
+msgid "Meta Author"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1294
+msgid "Meta Date"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1295
+msgid "Meta Comments Count"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1296
+#: framework/admin/customizer/customizer.php:1879
+msgid "Category"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1298
+msgid "Author Information"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1300
+msgid "Prev and Next"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1301
+#: framework/admin/customizer/customizer.php:1308
+#: framework/templates/posts/elements/post-related.php:38
+msgid "Related Posts"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1302
+msgid "Comments"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1313
+#: framework/admin/customizer/customizer.php:2345
+#: framework/admin/customizer/customizer.php:2401 framework/plugins/dokan/dokan.php:412
+msgid "Count"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1331
+msgid "Order By"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1334
+#: framework/admin/customizer/customizer.php:2366
+#: framework/admin/customizer/customizer.php:2413 framework/plugins/dokan/dokan.php:424
+msgid "ID"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1335
+#: framework/admin/customizer/customizer.php:2340
+#: framework/admin/customizer/customizer.php:2367
+#: framework/admin/customizer/customizer.php:2396
+#: framework/admin/customizer/customizer.php:2414 framework/plugins/dokan/dokan.php:407
+#: framework/plugins/dokan/dokan.php:425
+msgid "Title"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1336
+#: framework/admin/customizer/customizer.php:2368
+#: framework/admin/customizer/customizer.php:2415 framework/plugins/dokan/dokan.php:426
+#: framework/templates/woocommerce/checkout/thankyou.php:57
+msgid "Date"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1337
+#: framework/admin/customizer/customizer.php:2369
+#: framework/admin/customizer/customizer.php:2416 framework/plugins/dokan/dokan.php:427
+msgid "Modified"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1338
+msgid "Author"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1339
+#: framework/admin/customizer/customizer.php:2374
+#: framework/admin/customizer/customizer.php:2421 framework/plugins/dokan/dokan.php:432
+msgid "Comment count"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1345
+#: framework/admin/customizer/customizer.php:2380
+#: framework/admin/customizer/customizer.php:2427 framework/plugins/dokan/dokan.php:438
+msgid "Order Way"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1355
+msgid "CSS code"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1373
+msgid "Loading Overlay"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1374
+msgid "Display overlay animation while loading."
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1379
+#: framework/admin/optimize-wizard/views/lazyload.php:27
+msgid "Skeleton Screen"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1380
+msgid "Display the virtual area of each element on page while loading."
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1385
+msgid "Menu Lazyload"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1386
+msgid "Menus will be saved in browsers after lazyload."
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1391
+msgid "Images Lazyload"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1392
+msgid "All images will be lazyloaded."
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1397
+msgid "Lazyload Image Initial Color"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1419
+msgid "Search Post Type"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1422
+#: framework/templates/woocommerce/cart/cart.php:34
+#: framework/templates/woocommerce/cart/cart.php:77
+#: framework/templates/woocommerce/wishlist-view.php:63
+msgid "Product"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1423
+msgid "Post"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1429
+msgid "Live Search"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1430
+msgid "Search results will be displayed instantly."
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1435
+msgid "Use Relevanssi for Live Search"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1437
+#, php-format
+msgid "You will need to install and activate this %1$splugin%2$s"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1454
+msgid "Custom Image Size"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1459
+msgid "Register Custom Image Size (px)"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1460
+msgid "Don't forget to regenerate previously uploaded images."
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1466
+msgid "Image Quality and Threshold"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1471
+msgid "Image Quality"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1472
+msgid ""
+"Quality level between 0 (low) and 100 (high) of the JPEG. After changing this value, "
+"please install and run the Regenerate Thumbnails plugin once."
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1481
+msgid "Big Image Size Threshold"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1482
+msgid ""
+"Threshold for image height and width in pixels. WordPress will scale down newly "
+"uploaded images to this values as max-width or max-height. Set to \"0\" to disable the "
+"threshold completely."
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1494
+msgid "Import Options"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1499
+msgid "Please select source option file to import"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1511
+msgid "Export Options"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1516
+msgid "Export theme options"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1516
+msgid "Download Theme Options"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1522
+msgid "Reset Options"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1528
+msgid "Reset Theme Options"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1537
+msgid "Use by search engines for ranking"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1542
+msgid "Share &amp; Social Links"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1547
+msgid "Mobile Menu Items"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1562
+msgid "Theme name in AdminPanel"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1567
+msgid "White Icon"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1568
+msgid "Theme icon in Admin Menu and Admin Bar"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1573
+msgid "White Logo"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1574
+msgid "Theme logo in AdminPanel"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1582
+#: framework/admin/customizer/customizer.php:1593
+msgid "Share Icons"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1587
+msgid "Enable Social Login"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1588
+msgid "Please activate Nextend Social Login plugin and enable social links."
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1600
+msgid "Share Icons Style"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1605
+msgid "Live Hover Color"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1610
+msgid "Share Icon Type"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1623
+msgid "JS code"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1642
+msgid "Vendor"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1646
+msgid "Product Page"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1650
+msgid "WooCommerce"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1662
+msgid "Shop Page"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1667
+#: framework/admin/customizer/customizer.php:1826
+#: framework/admin/customizer/customizer.php:1831
+msgid "Product Type"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1672
+#: framework/admin/customizer/customizer.php:1927
+#: framework/admin/customizer/customizer.php:1932
+msgid "Category Type"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1677
+#: framework/admin/customizer/customizer.php:1887
+#: framework/admin/customizer/customizer.php:2027
+msgid "Quickview"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1692
+#: framework/admin/customizer/customizer.php:2094
+msgid "Privacy Consent Setting"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1698 framework/plugins/dokan/dokan.php:340
+#: framework/plugins/dokan/dokan.php:482
+msgid "Vendor Store"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1703
+msgid "Vendor Style"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1709
+#: framework/admin/customizer/customizer.php:2188
+msgid "Product Layout"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1714
+msgid "Product Data"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1719
+msgid "Product Reviews"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1724
+#: framework/admin/customizer/customizer.php:2335
+msgid "Related Products"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1729
+#: framework/admin/customizer/customizer.php:2391
+msgid "Up-Sells Products"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1734
+#: framework/admin/customizer/customizer.php:2444 framework/theme-options.php:249
+msgid "Frequently Bought Together"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1739
+msgid "Instagram Photos"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1745
+msgid "Cart Page"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1750 framework/class-theme-assets.php:455
+#: framework/theme-actions.php:180
+msgid "Checkout"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1765
+msgid "Shop Products"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1770
+msgid ""
+"Layout builder's \"Shop Layout/Content/Options\" is prior than this theme options in "
+"shop page."
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1784
+msgid "Gap Size"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1785
+msgid "Choose gap size between products"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1787
+msgid "No"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1788
+msgid "XS"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1789 framework/class-theme.php:104
+msgid "S"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1790 framework/class-theme.php:116
+msgid "M"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1791 framework/class-theme.php:122
+msgid "L"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1807
+msgid "Load Button Label"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1846
+msgid "Show In Box"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1851
+msgid "Box shadow on Hover"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1856
+msgid "Media Shadow Effect on Hover"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1861
+msgid "Change Image on Hover"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1866
+msgid "Open product on second click on mobile"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1877
+msgid "This option works only when shop catalog mode is enabled."
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1880
+msgid "Label"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1881
+#: framework/admin/customizer/customizer.php:2370
+#: framework/admin/customizer/customizer.php:2417 framework/plugins/dokan/dokan.php:428
+#: framework/templates/woocommerce/cart/cart.php:36
+#: framework/templates/woocommerce/cart/cart.php:97
+#: framework/templates/woocommerce/wishlist-view.php:73
+msgid "Price"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1882
+#: framework/admin/customizer/customizer.php:1895 framework/plugins/wcmp/wcmp.php:460
+#: framework/theme-options.php:322
+msgid "Sold By"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1883
+#: framework/admin/customizer/customizer.php:2372
+#: framework/admin/customizer/customizer.php:2419 framework/plugins/dokan/dokan.php:430
+msgid "Rating"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1884
+msgid "Attribute Swatches"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1885
+msgid "Add To Cart"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1894
+msgid "Sold by Label"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1907
+msgid "Product Excerpt"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1951
+msgid "Subcategory Count"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1964
+msgid "Show Icon"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:1999
+msgid "Advanced Features"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2008
+msgid "Enable Image Swatch"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2013
+msgid "Auto Close Filter on Mobile"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2015
+msgid "Enable auto close after selecting filter item on mobile."
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2019
+msgid "New Product Period"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2020
+msgid "How many days to show new label for new products."
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2032
+msgid "Quickview Type"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2042
+msgid "Thumbnails Position"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2064
+msgid "Enable Products Compare"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2069
+msgid "Compare Popup Type"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2072
+msgid "Mini Popup"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2079
+msgid "Products Max Count"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2098
+msgid "Show Privacy Consent Info Bar"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2099
+msgid ""
+"Under GDPR(General Data Protection Regulation), websites must make it clear to visitors "
+"who are from EU to control over their personal data that is being store by website. "
+"This includes specifically includes cookie"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2105
+msgid "Place some text here for cookie usage"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2110
+msgid "Choose Privacy Policy Page"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2111
+msgid "Choose the page that will contain your privacy policy"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2117
+msgid "Cookie Version"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2122
+msgid "Privacy Agreement Button Label"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2127
+msgid "Privacy Declinature Button Label"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2135 framework/plugins/dokan/dokan.php:368
+msgid "Vendor Store Page"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2151
+#: framework/plugins/woocommerce/woo-functions.php:662
+msgid "Vendor Dashboard"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2157
+msgid "Choose style for vendor pages"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2160
+#: framework/admin/customizer/customizer.php:2179
+msgid "Theme Style"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2161
+#: framework/admin/customizer/customizer.php:2180
+msgid "Plugin Style"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2170
+msgid "Vendor Sold By Template"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2176
+msgid "Choose style of sold by template"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2204
+msgid ""
+"Layout builder's \"Product Detail Layout/Content/Single Product Type\" option is prior "
+"than this."
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2209
+msgid "Add To Cart Sticky"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2214
+msgid "Add To Cart Sticky Mobile"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2243
+msgid "Description Title"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2248
+msgid "Specification Title"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2249 framework/theme-options.php:242
+msgid "Specification"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2254
+msgid "Reviews Title"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2255 framework/theme-options.php:243
+msgid "Customer Reviews"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2263
+msgid "Vendor Info Tab"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2268
+msgid "Hide Vendor Info Tab"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2273
+msgid "Vendor Info Title"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2288
+msgid "Custom Tab"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2293
+msgid "Custom Tab Title"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2294
+msgid "Show custom tab in all product pages."
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2299
+msgid "Custom Tab Content"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2308
+msgid "Product Review Images"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2313
+msgid "Maximum Image Count per Review"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2322
+msgid "Maximum Upload File Size (MB)"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2323
+#, php-format
+msgid ""
+"Set the value in megabytes. Currently your server allows you to upload files up to %s."
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2363
+#: framework/admin/customizer/customizer.php:2410 framework/plugins/dokan/dokan.php:421
+msgid "Order"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2371
+#: framework/admin/customizer/customizer.php:2418 framework/plugins/dokan/dokan.php:429
+msgid "Random"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2373
+#: framework/admin/customizer/customizer.php:2420 framework/plugins/dokan/dokan.php:431
+msgid "popularity"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2429
+msgid "ASC"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2430
+msgid "DESC"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2437
+msgid "Show Frequently Bought Together"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2443
+msgid "Frequently Bought Together Title"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2450
+msgid "Show Clear Button"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2451
+msgid "Show clear cart button on cart page."
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2456
+msgid "Auto Update Quantity"
+msgstr ""
+
+#: framework/admin/customizer/customizer.php:2457
+msgid "Automatically update on quantity change."
+msgstr ""
+
+#: framework/admin/importer/importer-api.php:189
+msgid "The package could not be downloaded."
+msgstr ""
+
+#: framework/admin/importer/importer-api.php:211
+msgid "WordPress filesystem error."
+msgstr ""
+
+#: framework/admin/importer/importer-api.php:216
+msgid "The package could not be unziped."
+msgstr ""
+
+#: framework/admin/importer/importer-api.php:221
+#, php-format
+msgid "Demo data directory does not exist (%s)."
+msgstr ""
+
+#: framework/admin/importer/parsers.php:45 framework/admin/importer/parsers.php:93
+#: framework/admin/importer/parsers.php:101 framework/admin/importer/theme-parsers.php:46
+#: framework/admin/importer/theme-parsers.php:96
+#: framework/admin/importer/theme-parsers.php:104
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: framework/admin/importer/parsers.php:46 framework/admin/importer/theme-parsers.php:47
+msgid ""
+"Details are shown above. The importer will now try again with a different parser..."
+msgstr ""
+
+#: framework/admin/importer/parsers.php:106 framework/admin/importer/parsers.php:112
+#: framework/admin/importer/parsers.php:403 framework/admin/importer/parsers.php:620
+#: framework/admin/importer/theme-parsers.php:109
+#: framework/admin/importer/theme-parsers.php:115
+#: framework/admin/importer/theme-parsers.php:408
+#: framework/admin/importer/theme-parsers.php:630
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: framework/admin/importer/parsers.php:561 framework/admin/importer/theme-parsers.php:569
+msgid "GZ Not Enabled"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:208
+msgid "Imported categories"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:213
+msgid "Imported tags"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:218
+msgid "Imported terms"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:224
+msgid "Imported posts"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:230
+msgid "Importing posts"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:239
+msgid "Importing menus"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:245
+#: framework/admin/importer/theme-wordpress-importer.php:253
+#: framework/admin/importer/theme-wordpress-importer.php:258
+msgid "Processing menus"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:265
+msgid "Successfully imported dummy content!"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:312
+#: framework/admin/importer/theme-wordpress-importer.php:321
+#: framework/admin/importer/theme-wordpress-importer.php:378
+#: framework/admin/importer/theme-wordpress-importer.php:382
+#: framework/admin/importer/theme-wordpress-importer.php:392
+#: framework/admin/importer/wordpress-importer.php:205
+#: framework/admin/importer/wordpress-importer.php:214
+#: framework/admin/importer/wordpress-importer.php:276
+#: framework/admin/importer/wordpress-importer.php:280
+#: framework/admin/importer/wordpress-importer.php:290
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:313
+#: framework/admin/importer/wordpress-importer.php:206
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:384
+#: framework/admin/importer/wordpress-importer.php:282
+#, php-format
+msgid ""
+"The export file could not be found at %s. It is likely that this was caused by a "
+"permissions problem."
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:401
+#: framework/admin/importer/wordpress-importer.php:299
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the importer. Please "
+"consider updating."
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:427
+#: framework/admin/importer/wordpress-importer.php:325
+#, php-format
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:454
+#: framework/admin/importer/wordpress-importer.php:352
+msgid "Assign Authors"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:456
+#: framework/admin/importer/wordpress-importer.php:354
+#, php-format
+msgid ""
+"To make it easier for you to edit and save the imported content, you may want to "
+"reassign the author of the imported item to an existing user of this site. For example, "
+"you may want to import all the entries as %1$sadmin%2$ss entries."
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:459
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly generated and "
+"the new user's role will be set as %s. Manually changing the new user&#8217;s details "
+"will be necessary."
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:469
+#: framework/admin/importer/wordpress-importer.php:367
+msgid "Import Attachments"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:472
+#: framework/admin/importer/wordpress-importer.php:370
+msgid "Download and import file attachments"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:489
+#: framework/admin/importer/wordpress-importer.php:387
+msgid "Import author:"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:503
+#: framework/admin/importer/wordpress-importer.php:401
+msgid "or create new user with login name:"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:506
+#: framework/admin/importer/wordpress-importer.php:404
+msgid "as a new user:"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:514
+#: framework/admin/importer/wordpress-importer.php:412
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:516
+#: framework/admin/importer/wordpress-importer.php:414
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:523
+#: framework/admin/importer/wordpress-importer.php:421
+msgid "- Select -"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:582
+#: framework/admin/importer/wordpress-importer.php:480
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:667
+#: framework/admin/importer/wordpress-importer.php:563
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:722
+#: framework/admin/importer/wordpress-importer.php:616
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:804
+#: framework/admin/importer/theme-wordpress-importer.php:1144
+#: framework/admin/importer/wordpress-importer.php:696
+#: framework/admin/importer/wordpress-importer.php:1036
+#, php-format
+msgid "Failed to import %1$s %2$s"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:910
+#: framework/admin/importer/wordpress-importer.php:793
+#, php-format
+msgid "Failed to import &#8220;%1$s&#8221;: Invalid post type %2$s"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:1001
+#: framework/admin/importer/theme-wordpress-importer.php:1103
+#: framework/admin/importer/wordpress-importer.php:893
+#: framework/admin/importer/wordpress-importer.php:997
+#, php-format
+msgid "Failed to import %1$s &#8220;%2$s&#8221;"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:1347
+#: framework/admin/importer/wordpress-importer.php:1241
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:1354
+#: framework/admin/importer/wordpress-importer.php:1248
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:1437
+#: framework/admin/importer/wordpress-importer.php:1331
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:1454
+#: framework/admin/importer/wordpress-importer.php:1348
+msgid "Invalid file type"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:1523
+#: framework/admin/importer/wordpress-importer.php:1417
+msgid "Remote server did not respond"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:1530
+#: framework/admin/importer/wordpress-importer.php:1424
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:1539
+#: framework/admin/importer/wordpress-importer.php:1433
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:1652
+#: framework/admin/importer/wordpress-importer.php:1540
+msgid "Import WordPress"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:1660
+#: framework/admin/importer/wordpress-importer.php:1548
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to ensure "
+"compatibility with newer export files."
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:1675
+#: framework/admin/importer/wordpress-importer.php:1563
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, "
+"pages, comments, custom fields, categories, and tags into this site."
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:1676
+#: framework/admin/importer/wordpress-importer.php:1564
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: framework/admin/importer/wordpress-importer.php:260
+msgid "All done."
+msgstr ""
+
+#: framework/admin/importer/wordpress-importer.php:260
+msgid "Have fun!"
+msgstr ""
+
+#: framework/admin/importer/wordpress-importer.php:261
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: framework/admin/importer/wordpress-importer.php:357
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly generated and "
+"the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s "
+"details will be necessary."
+msgstr ""
+
+#: framework/admin/importer/wordpress-importer.php:843
+#, php-format
+msgid "%1$s &#8220;%2$s&#8221; already exists."
+msgstr ""
+
+#: framework/admin/optimize-wizard/optimize-wizard.php:141
+msgid "Loading Failed"
+msgstr ""
+
+#: framework/admin/optimize-wizard/optimize-wizard.php:142
+#: framework/admin/setup-wizard/setup-wizard.php:247
+msgid "Failed"
+msgstr ""
+
+#: framework/admin/optimize-wizard/optimize-wizard.php:143
+#: framework/admin/setup-wizard/setup-wizard.php:248
+msgid "Ajax error"
+msgstr ""
+
+#: framework/admin/optimize-wizard/optimize-wizard.php:328
+#: framework/admin/optimize-wizard/optimize-wizard.php:406
+#: framework/admin/setup-wizard/setup-wizard.php:455
+msgid "No Slug Found"
+msgstr ""
+
+#: framework/admin/optimize-wizard/optimize-wizard.php:348
+#: framework/admin/setup-wizard/setup-wizard.php:475
+msgid "Activating Plugin"
+msgstr ""
+
+#: framework/admin/optimize-wizard/optimize-wizard.php:363
+#: framework/admin/setup-wizard/setup-wizard.php:490
+msgid "Updating Plugin"
+msgstr ""
+
+#: framework/admin/optimize-wizard/optimize-wizard.php:378
+#: framework/admin/setup-wizard/setup-wizard.php:505
+msgid "Installing Plugin"
+msgstr ""
+
+#: framework/admin/optimize-wizard/optimize-wizard.php:392
+#: framework/admin/setup-wizard/setup-wizard.php:519
+msgid "Success"
+msgstr ""
+
+#: framework/admin/optimize-wizard/optimize-wizard.php:414
+msgid "Sorry, you are not allowed to deactivate this plugin."
+msgstr ""
+
+#: framework/admin/optimize-wizard/optimize-wizard.php:445
+msgid "Peformance"
+msgstr ""
+
+#: framework/admin/optimize-wizard/optimize-wizard.php:460
+#: framework/admin/setup-wizard/setup-wizard.php:198
+msgid "Ready!"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/index.php:16
+msgid ""
+"Wolmart optimize wizard will help you configure proper website with optimum resources "
+"and peak efficiency."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/lazyload.php:6
+msgid "This will help you make your site faster by lazyloading images and contents."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/lazyload.php:9
+msgid "Lazyload Images"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/lazyload.php:12
+msgid "All image resources will be lazyloaded so that page's loading speed gets faster."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/lazyload.php:14
+msgid "Use with caution! Disable this option if you have any compability problems."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/lazyload.php:18
+msgid "Lazyload Menus"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/lazyload.php:21
+msgid "Menus will be lazyloaded and cached in browsers for faster load."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/lazyload.php:23
+msgid ""
+"Cached menus will be updated after they have been changed or customizer panel has been "
+"saved."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/lazyload.php:29
+msgid ""
+"Instead of real content, skeleton is used to enhance speed of page loading and makes it "
+"more beautiful."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/lazyload.php:32
+msgid "Enable Google Web Font Lazyload"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/lazyload.php:48
+#: framework/admin/optimize-wizard/views/performance.php:89
+#: framework/admin/optimize-wizard/views/resources.php:81
+#: framework/admin/setup-wizard/views/customize.php:40
+#: framework/admin/setup-wizard/views/demo.php:211
+msgid "Skip this step"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/lazyload.php:49
+#: framework/admin/optimize-wizard/views/performance.php:90
+msgid "Save & Continue"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/performance.php:8
+msgid "1. Optimize Mobile"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/performance.php:11
+msgid "Disable Mobile Animations"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/performance.php:13
+msgid "Disable appear and slide animations in mobile."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/performance.php:16
+msgid "Disable Mobile Sliders"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/performance.php:18
+msgid "Use scrollbar instead of carousel for only products and posts in mobile."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/performance.php:20
+msgid "2. Serve Fonts"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/performance.php:22
+msgid "- Preload Webfonts"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/performance.php:26
+#, php-format
+msgid ""
+"This improves page load time as the browser caches preloaded resources so they are "
+"available immediately when needed. By using this option, you can increase page speed "
+"about 1 ~ 4 percent in %1$sGoogle PageSpeed Insights%2$s for both of mobile and desktop."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/performance.php:36
+msgid "Wolmart Icons"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/performance.php:39
+msgid "Font Awesome 5 Solid"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/performance.php:42
+msgid "Font Awesome 5 Regular"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/performance.php:45
+msgid "Font Awesome 5 Brands"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/performance.php:49
+msgid ""
+"Please input other resources that will be pre loaded. Ex. https://d-themes.com/"
+"wordpress/wolmart/wp-content/themes/wolmart-child/fonts/custom.woff2."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/performance.php:54
+msgid "-Font Face Rendering"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/performance.php:58
+#, php-format
+msgid ""
+"Choosing \"Swap\" for font-display will ensure text remains visible during webfont load "
+"and this will improve page speed score in %1$sGoogle PageSpeed Insights%2$s for both of "
+"mobile and desktop."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/performance.php:62
+msgid "Swap for font display"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/performance.php:66
+msgid "3. Asynchronous Scripts"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/performance.php:69
+msgid "Asynchronous load"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/performance.php:71
+msgid ""
+"Some javascript libraries does not affect first paint. And you can increase page "
+"loading speed by loading them asynchronously."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/performance.php:74
+msgid "Split tasks"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/performance.php:76
+msgid ""
+"Long time tasks may cause unintentional rendering suspension or affect to its "
+"performance. To make pages faster, please check split task option."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/performance.php:79
+msgid "Only necessary JS at loading"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/performance.php:81
+msgid ""
+"While page is loaded, there exists a lot of unnecessary javascripts running during "
+"initialization. If they works in idle time and only necessary ones runs while loading "
+"time, page speed will be faster."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/performance.php:84
+msgid "Process after load event"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/performance.php:86
+msgid ""
+"This will accelerate page's load time. But this may cause compatibility issue since "
+"page still not be ready. It will be in ready state after document or window load event "
+"is ready. To fix this problem, Please add event handlers to window's \"wolmart_complete"
+"\" event."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/plugins.php:6
+msgid "1. Recommended Plugins"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/plugins.php:12
+msgid "This will install the plugins which can acclerate your site."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/plugins.php:13
+msgid ""
+"You should disable below plugins while in development. Changes may not be applied "
+"because of them."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/plugins.php:39
+msgid "How to enable leverage browser caching."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/plugins.php:40
+msgid ""
+"Page loading duration can be significantly improved by asking visitors to save and "
+"reuse the files included in your website."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/plugins.php:45
+msgid "Good News! All recommended plugins are already installed up-to-date."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/plugins.php:51
+msgid "2. Installed Plugins"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/plugins.php:52
+msgid "Please check active plugins. You can deactivate unnecessary plugins."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/plugins.php:56
+msgid "Plugin Name"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/plugins.php:57
+#: framework/admin/tools/tools.php:266
+#: framework/admin/version-control/version-control.php:389
+msgid "Action"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/plugins.php:75
+msgid "Network Activate"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/plugins.php:84
+msgid "Share Plugins Information"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/plugins.php:85
+msgid ""
+"Please contribute to upgrade theme and your site to the best one! Your cooperation "
+"would be highly appreciated."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/plugins.php:86
+msgid ""
+"We will never collect any sensivite or private data such as IP addresses, email, "
+"usernames, or passwords."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/plugins.php:90
+#: framework/admin/setup-wizard/views/customize.php:18
+#: framework/admin/setup-wizard/views/customize.php:47
+#: framework/admin/setup-wizard/views/demo.php:212
+#: framework/admin/setup-wizard/views/plugins.php:79
+#: framework/admin/setup-wizard/views/status.php:178
+msgid "Continue"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/ready.php:5
+msgid "Your Website is now optimized much better than before!"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/ready.php:6
+msgid ""
+"Congratulations! The Site is now much faster, better and fully optimized. Please visit "
+"your new site to notice how its performance changed."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/ready.php:7
+msgid "View your optimized website!"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/ready.php:9
+#, php-format
+msgid "Please leave a %1$s5-star rating%2$s if you are satisfied with this theme. Thanks!"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources.php:4
+msgid "Optimize Resources"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources.php:7
+msgid "This will help you to optimize theme styles."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources.php:9
+msgid ""
+"Wolmart comes with powerful optimization wizard for theme styles. Detailed options for "
+"used components and helper classes will optimize your site perfectly."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources.php:11
+msgid ""
+"All options you have been checked will be saved for next use. After you have finished "
+"development, please run this wizard."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources.php:15
+msgid "Please check used resources."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources.php:23
+msgid "Gutenberg"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources.php:23
+msgid "If any gutenberg block doesn't be used in site, check me."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources.php:28
+msgid "WooCommerce blocks for Gutenberg"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources.php:28
+msgid "If any WooCommerce Gutenberg blocks for doesn't be used in sites, check me."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources.php:34
+msgid "Elementor Resources"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources.php:34
+msgid ""
+"Check this to speed up your elementor site remarkably, if your site has no "
+"compatibility issue."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources.php:41
+msgid "Dokan Resources"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources.php:41
+msgid ""
+"Check this to speed up your dokan site for not logged in users, if your site has no "
+"compatibility issue."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources.php:45
+msgid " - Change Wordpress Defaults"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources.php:46
+msgid ""
+"You can dequeue WordPress default scripts that are not necessary for most websites."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources.php:50
+msgid "Emojis Script"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources.php:50
+msgid "By using this option, you can remove default WordPress emojis script."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources.php:55
+msgid "jQuery Migrate Script"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources.php:55
+msgid "Please use this option if you are not using any deprecated jQuery code."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources.php:60
+msgid "Load jQuery In Footer"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources.php:60
+msgid "Check this to enable defer loading of jQuery to the footer of the page."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources.php:63
+msgid " - File Compression"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources.php:64
+msgid ""
+"If you active this option, it can increase the speed of your site. Because it reduces "
+"the request count and can cache files."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources.php:68
+msgid "Merge javascripts and stylesheets"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources.php:68
+msgid ""
+"Compile the dynamic CSS to files (a separate file will be created for each page inside "
+"of the uploads folder)"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources.php:71
+msgid " - Critical Css - Advanced Feature"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources.php:72
+msgid ""
+"If you check this option, you can see it in the admin menu. It helps your site to "
+"reduce the rendering time and increase the google page speed."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources.php:76
+#: framework/admin/panel/views/header.php:80
+msgid "Critical CSS"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources.php:76
+msgid "Generate the critical CSS."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources.php:82
+msgid "Compile & Continue"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources_load.php:9
+msgid "WPBakery Shortcodes"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/resources_load.php:52
+#: framework/admin/optimize-wizard/views/resources_load.php:81
+msgid "Toggle All"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/welcome.php:5
+#, php-format
+msgid "Welcome to the optimize wizard for %s."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/welcome.php:10
+msgid "It looks like you have already optimized your site."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/welcome.php:13
+msgid "Run Optimize Wizard Again"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/welcome.php:14
+msgid "Exit to Wolmart Panel"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/welcome.php:20
+msgid ""
+"This Optimize Wizard is introduced to optimize all resources that are unnecessary for "
+"your site. Every step has enough description about how it works. Some options may "
+"produce some conflicts if your site is still in development progress, so we advise you "
+"to enable all options once site development is completed."
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/welcome.php:21
+msgid "No time right now? "
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/welcome.php:21
+msgid ""
+"If you don't want to go through the wizard, you can skip and return to the WordPress "
+"dashboard. Come back anytime you want!"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/welcome.php:23
+msgid "Not right now"
+msgstr ""
+
+#: framework/admin/optimize-wizard/views/welcome.php:24
+msgid "Let's Go"
+msgstr ""
+
+#: framework/admin/panel/views/header.php:38
+msgid "Setup your site quickly."
+msgstr ""
+
+#: framework/admin/panel/views/header.php:46
+msgid "Enhance your site speed."
+msgstr ""
+
+#: framework/admin/panel/views/header.php:55 framework/admin/panel/views/header.php:63
+msgid "Please activate the theme."
+msgstr ""
+
+#: framework/admin/panel/views/header.php:72
+msgid "Keep your site health."
+msgstr ""
+
+#: framework/admin/panel/views/header.php:81
+msgid "Genereate Critical CSS."
+msgstr ""
+
+#: framework/admin/panel/views/header.php:89
+#: framework/admin/version-control/version-control.php:355
+#: framework/admin/version-control/version-control.php:371
+msgid "Version Control"
+msgstr ""
+
+#: framework/admin/panel/views/header.php:90
+msgid "Rollback to a previous version."
+msgstr ""
+
+#: framework/admin/panel/views/header.php:114
+msgid "Edit your site layouts."
+msgstr ""
+
+#: framework/admin/panel/views/header.php:123
+msgid "Templates"
+msgstr ""
+
+#: framework/admin/panel/views/header.php:124
+msgid "Create unique styled site."
+msgstr ""
+
+#: framework/admin/panel/views/header.php:132
+msgid "Create unlimited sidebars."
+msgstr ""
+
+#: framework/admin/panel/views/license.php:5
+msgid "Welcome to Wolmart"
+msgstr ""
+
+#: framework/admin/panel/views/license.php:7
+msgid "Congratulations! Your product is registered now."
+msgstr ""
+
+#: framework/admin/panel/views/license.php:9
+msgid ""
+"Thank you for choosing Wolmart theme from ThemeForest. Please register your purchase "
+"and make sure that you have fulfilled all of the requirements."
+msgstr ""
+
+#: framework/admin/panel/views/license.php:16
+msgid "Wolmart Setup Wizard"
+msgstr ""
+
+#: framework/admin/panel/views/license.php:18
+#, php-format
+msgid "%1$sWolmart eCommerce%2$sversion %3$s"
+msgstr ""
+
+#: framework/admin/panel/views/license.php:26
+msgid "Please enter your Purchase Code to complete registration."
+msgstr ""
+
+#: framework/admin/panel/views/license.php:29
+msgid "Where can I find my purchase code?"
+msgstr ""
+
+#: framework/admin/panel/views/license.php:32
+#, php-format
+msgid "Please go to %1$sThemeForest.net/downloads%2$s"
+msgstr ""
+
+#: framework/admin/panel/views/license.php:33
+msgid "Click the Download button in Wolmart row"
+msgstr ""
+
+#: framework/admin/panel/views/license.php:34
+msgid "Select License Certificate & Purchase code"
+msgstr ""
+
+#: framework/admin/panel/views/license.php:35
+msgid "Copy Item Purchase Code"
+msgstr ""
+
+#: framework/admin/panel/views/license.php:49
+msgid "Purchase code not updated. We will keep the existing one."
+msgstr ""
+
+#: framework/admin/panel/views/license.php:52
+#, php-format
+msgid ""
+"Your %1$spurchase code is valid%2$s. Thank you! Enjoy Wolmart Theme and automatic "
+"updates."
+msgstr ""
+
+#: framework/admin/panel/views/license.php:65
+msgid "You are using Envato Hosted, this subscription code can not be deregistered."
+msgstr ""
+
+#: framework/admin/panel/views/license.php:68
+msgid "Purchase Code"
+msgstr ""
+
+#: framework/admin/panel/views/license.php:71
+msgid "Deactivate"
+msgstr ""
+
+#: framework/admin/panel/views/license.php:74
+msgid "Activate"
+msgstr ""
+
+#: framework/admin/panel/views/license.php:83
+#, php-format
+msgid ""
+"Before you get started, please be sure to always check out %1$sthis documentation%2$s. "
+"We outline all kinds of good information, and provide you with all the details you need "
+"to use Wolmart."
+msgstr ""
+
+#: framework/admin/panel/views/license.php:87
+#, php-format
+msgid ""
+"If you are unable to find your answer in our documentation, we encourage you to contact "
+"us through %1$ssupport page%2$s with your site CPanel (or FTP) and WordPress admin "
+"details."
+msgstr ""
+
+#: framework/admin/panel/views/license.php:89
+msgid ""
+"We are very happy to help you and you will get reply from us faster than you expected."
+msgstr ""
+
+#: framework/admin/setup-wizard/setup-wizard.php:172
+#: framework/admin/setup-wizard/views/status.php:30
+msgid "System Status"
+msgstr ""
+
+#: framework/admin/setup-wizard/setup-wizard.php:192
+msgid "Import Demo"
+msgstr ""
+
+#: framework/admin/setup-wizard/setup-wizard.php:238
+msgid "Are you sure you want to leave?"
+msgstr ""
+
+#: framework/admin/setup-wizard/setup-wizard.php:239
+msgid "Are you sure to import demo contents and override old one?"
+msgstr ""
+
+#: framework/admin/setup-wizard/setup-wizard.php:241
+#, php-format
+msgid ""
+"Failed importing! Please check the %1$s\"System Status\"%2$s tab to ensure your server "
+"meets all requirements for a successful import. Settings that need attention will be "
+"listed in red. If your server provider does not allow to update settings, please try "
+"using alternative import mode."
+msgstr ""
+
+#: framework/admin/setup-wizard/setup-wizard.php:242
+msgid " installation is failed!"
+msgstr ""
+
+#: framework/admin/setup-wizard/setup-wizard.php:243
+msgid " installation is finished!"
+msgstr ""
+
+#: framework/admin/setup-wizard/setup-wizard.php:244
+msgid "Installing"
+msgstr ""
+
+#: framework/admin/setup-wizard/setup-wizard.php:245
+#: framework/admin/setup-wizard/views/demo.php:80
+msgid "Demo Import"
+msgstr ""
+
+#: framework/admin/setup-wizard/setup-wizard.php:246
+msgid "Visit your site."
+msgstr ""
+
+#: framework/admin/setup-wizard/setup-wizard.php:289
+msgid "Failed to find TGM"
+msgstr ""
+
+#: framework/admin/setup-wizard/setup-wizard.php:383
+#, php-format
+msgid "Directory permission required for %s"
+msgstr ""
+
+#: framework/admin/setup-wizard/setup-wizard.php:405
+#: framework/admin/setup-wizard/views/customize.php:14
+#, php-format
+msgid "Child Theme %1$s has been created and activated!%2$s Folder is located in %3$s"
+msgstr ""
+
+#: framework/admin/setup-wizard/setup-wizard.php:561
+msgid "Remote API error."
+msgstr ""
+
+#: framework/admin/setup-wizard/setup-wizard.php:637
+msgid "Successfully reset menus!"
+msgstr ""
+
+#: framework/admin/setup-wizard/setup-wizard.php:666
+msgid "Successfully reset widgets!"
+msgstr ""
+
+#: framework/admin/setup-wizard/setup-wizard.php:885
+msgid "Successfully imported widgets!"
+msgstr ""
+
+#: framework/admin/setup-wizard/setup-wizard.php:986
+msgid "Please compile default css files by publishing options in customize panel."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/customize.php:4
+msgid "Setup Wolmart Child Theme (Optional)"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/customize.php:6
+#, php-format
+msgid ""
+"If you are going to make changes to the theme source code please use a %1$s rather than "
+"modifying the main theme HTML/CSS/PHP code. %2$s This allows the parent theme to "
+"receive updates without overwriting your source code changes. Use the form below to "
+"create and activate the Child Theme."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/customize.php:33
+msgid "Child Theme Title:"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/customize.php:37
+msgid "If you're not sure what a Child Theme is just click the \"Skip this step\" button."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/customize.php:41
+msgid "Create and Use Child Theme"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:6
+msgid "Demo Content Installation"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:7
+msgid "In this step you can upload your logo and select a demo from the list."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:12
+msgid "Your Logo:"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:34
+msgid "Uninstall Demo"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:37
+msgid "Demo Contents Remove"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:42
+msgid "Pages"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:44
+msgid "Attachments"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:46
+msgid "Builders"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:51
+msgid ""
+"Please backup your site before uninstalling. All imported and overridden contents from "
+"Wolmart demos would be removed."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:53
+msgid "Uninstall"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:93
+#: framework/admin/setup-wizard/views/demo.php:117
+msgid "Import theme options"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:94
+#: framework/admin/setup-wizard/views/demo.php:119
+msgid "Reset menus"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:95
+#: framework/admin/setup-wizard/views/demo.php:120
+msgid "Reset widgets"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:96
+#: framework/admin/setup-wizard/views/demo.php:121
+msgid "Import dummy content"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:97
+#: framework/admin/setup-wizard/views/demo.php:122
+msgid "Import widgets"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:98
+#: framework/admin/setup-wizard/views/demo.php:124
+msgid "Import subpages"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:107
+msgid "Elementor"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:111
+msgid "WPBakery Page Builder"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:116
+msgid "Select Content to Import"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:123
+msgid "Override existing contents"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:127
+msgid "Do you want to install demo? It can also take a minute to complete."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:128
+msgid "Standard Import"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:130
+msgid ""
+"Your server performance does not satisfy Wolmart demo importer engine's requirement. We "
+"recommend you to use alternative method to perform demo import without any issues but "
+"it may take much time than standard import."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:132
+msgid ""
+"If you have any issues with standard import, please use Alternative mode. But it may "
+"take much time than standard import."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:134
+msgid "Alternative Mode"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:165
+msgid "Preview"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:177
+#: framework/admin/setup-wizard/views/demo.php:192
+msgid "Install"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:203
+msgid ""
+"Installing a demo provides pages, posts, menus, images, theme options, widgets and more."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:204
+msgid "IMPORTANT: "
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:204
+msgid "The included plugins need to be installed and activated before you install a demo."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:206
+#, php-format
+msgid ""
+"Please check the %1$sStatus%2$s step to ensure your server meets all requirements for a "
+"successful import. Settings that need attention will be listed in red."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/index.php:16
+msgid ""
+"This quick setup wizard will help you configure your new website. This wizard will "
+"install the required WordPress plugins, import demo."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/plugins.php:12
+msgid "This will install the default plugins which are used in Wolmart."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/plugins.php:14
+msgid "Please check the plugins to install:"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/plugins.php:30
+msgid "Load more"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/plugins.php:44
+msgid "Installation"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/plugins.php:46
+msgid "Update"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/plugins.php:48
+msgid "Activation"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/plugins.php:53
+#, php-format
+msgid "%s required"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/plugins.php:56
+#, php-format
+msgid "%s recommended for certain demos"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/plugins.php:70
+#, php-format
+msgid ""
+"Using %1$sElementor%2$s and %1$sVisual Composer%2$s togther affects your site "
+"performance."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/plugins.php:74
+msgid "Good news! All plugins are already installed and up to date. Please continue."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/ready.php:5
+msgid "Your Website is Ready!"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/ready.php:7
+msgid ""
+"Congratulations! The theme has been activated and your website is ready. Please go to "
+"your WordPress dashboard to make changes and modify the content for your needs."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/ready.php:9
+msgid ""
+"This theme comes with 6 months item support from purchase date (with the option to "
+"extend this period). This license allows you to use this theme on a single website. "
+"Please purchase an additional license to use this theme on another website."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/ready.php:13
+#, php-format
+msgid "Item Support %1$sDOES%2$s Include:"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/ready.php:16
+msgid "Availability of the author to answer questions"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/ready.php:17
+msgid "Answering technical questions about item features"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/ready.php:18
+msgid "Assistance with reported bugs and issues"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/ready.php:19
+msgid "Help with bundled 3rd party plugins"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/ready.php:24
+#, php-format
+msgid "Item Support %1$sDOES NOT%2$s Include:"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/ready.php:26
+#, php-format
+msgid ""
+"Customization services (this is available through %1$sptheme.customize@gmail.com%2$s)"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/ready.php:27
+#, php-format
+msgid ""
+"Installation services (this is available through %1$sptheme.customize@gmail.com%2$s)"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/ready.php:28
+msgid ""
+"Help and Support for non-bundled 3rd party plugins (i.e. plugins you install yourself "
+"later on)"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/ready.php:33
+#, php-format
+msgid ""
+"More details about item support can be found in the ThemeForest %1$sItem Support Policy"
+"%2$s."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/ready.php:37
+msgid "More Resources"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/ready.php:39
+msgid "Wolmart Documentation"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/ready.php:40
+msgid "Learn how to use WooCommerce"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/ready.php:41
+msgid "Learn how to use WordPress"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/ready.php:42
+msgid "Leave an Item Rating"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/ready.php:45
+#, php-format
+msgid ""
+"Please come back and leave a %1$s5-star rating%2$s if you are happy with this theme. "
+"Thanks!"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/ready.php:48
+msgid "View your new website!"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/status.php:31
+msgid "Check your current server performance."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/status.php:42
+msgid "Uploads folder writable"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/status.php:45
+msgid ""
+"Uploads folder must be writable. Please set write permission to your wp-content/uploads "
+"folder."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/status.php:56
+msgid "WP File System"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/status.php:59
+msgid ""
+"File System access is required for pre-built websites and plugins installation. Please "
+"contact your hosting provider."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/status.php:71
+msgid "ZipArchive"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/status.php:74
+msgid ""
+"ZipArchive is required for pre-built websites and plugins installation. Please contact "
+"your hosting provider."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/status.php:82
+msgid "SUHOSIN Installed"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/status.php:83
+msgid "Suhosin may need to be configured to increase its data submission limits."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/status.php:99
+msgid "PHP Memory Limit"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/status.php:107
+#, php-format
+msgid "Minimum %1$s128 MB%2$s is required, %1$s256 MB%2$s is recommended."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/status.php:111
+#, php-format
+msgid "Current memory limit is OK, however %1$s256 MB%2$s is recommended."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/status.php:128
+msgid "PHP max_execution_time"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/status.php:136
+#, php-format
+msgid "Minimum %1$s300%2$s is required, %1$s600%2$s is recommended."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/status.php:140
+#, php-format
+msgid "Current time limit is OK, however %1$s600%2$s is recommended."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/status.php:153
+msgid "PHP max_input_vars"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/status.php:159
+msgid "Minimum 2000 is required"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/status.php:163
+msgid ""
+"Do not worry if you are unable to update your server configuration due to hosting "
+"limit, you can use \"Alternative Import\" method in Demo Content import page."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/status.php:167
+msgid ""
+"php.ini values are shown above. Real values may vary, please check your limits using"
+msgstr ""
+
+#: framework/admin/tools/tools.php:84
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: framework/admin/tools/tools.php:110
+msgid "Tool does not exist."
+msgstr ""
+
+#: framework/admin/tools/tools.php:135
+msgid "Clear the merged css and js in a file"
+msgstr ""
+
+#: framework/admin/tools/tools.php:136
+msgid "Clear resources"
+msgstr ""
+
+#: framework/admin/tools/tools.php:137
+msgid "This will clear the all combined stylesheets and javascripts."
+msgstr ""
+
+#: framework/admin/tools/tools.php:140
+msgid "Addon transients"
+msgstr ""
+
+#: framework/admin/tools/tools.php:141 framework/admin/tools/tools.php:146
+#: framework/admin/tools/tools.php:151
+msgid "Clear transients"
+msgstr ""
+
+#: framework/admin/tools/tools.php:142
+msgid "This will clear the Wolmart Addon Features(Brand, Vendor, etc)transients cache."
+msgstr ""
+
+#: framework/admin/tools/tools.php:145
+msgid "Plugin transients"
+msgstr ""
+
+#: framework/admin/tools/tools.php:147
+msgid ""
+"This tool will clear the plugin(Wolmart Core Plugin, WPBakery Page Builder) update "
+"transients cache."
+msgstr ""
+
+#: framework/admin/tools/tools.php:150
+msgid "Studio block transients"
+msgstr ""
+
+#: framework/admin/tools/tools.php:152
+msgid "This tool will clear the Wolmart Studio block transients cache."
+msgstr ""
+
+#: framework/admin/tools/tools.php:174
+msgid "Addon transients are cleared"
+msgstr ""
+
+#: framework/admin/tools/tools.php:180
+msgid "Plugin transients are cleared"
+msgstr ""
+
+#: framework/admin/tools/tools.php:185
+msgid "Wolmart Studio transients are cleared"
+msgstr ""
+
+#: framework/admin/tools/tools.php:198
+msgid "Clear all merged javascripts and stylesheets."
+msgstr ""
+
+#: framework/admin/tools/tools.php:202
+msgid "Refreshed successfully."
+msgstr ""
+
+#: framework/admin/tools/tools.php:216
+#, php-format
+msgid "There was an error calling %s"
+msgstr ""
+
+#: framework/admin/tools/tools.php:218
+msgid "Tool ran."
+msgstr ""
+
+#: framework/admin/tools/tools.php:222
+msgid "There was an error calling this tool. There is no callback present."
+msgstr ""
+
+#: framework/admin/tools/tools.php:248
+msgid "Management Tools"
+msgstr ""
+
+#: framework/admin/tools/tools.php:249
+msgid "Keep your site health instantly using Wolmart Tools"
+msgstr ""
+
+#: framework/admin/tools/tools.php:265
+#: framework/admin/version-control/version-control.php:388
+msgid "Action Name"
+msgstr ""
+
+#: framework/admin/version-control/version-control.php:372
+msgid ""
+"Experiencing an issue with New version? Rollback to a previous version before the issue "
+"appeared."
+msgstr ""
+
+#: framework/admin/version-control/version-control.php:395
+msgid "Wolmart Theme"
+msgstr ""
+
+#: framework/admin/version-control/version-control.php:396
+#: framework/admin/version-control/version-control.php:414
+msgid "Warning: Please backup your database before making the rollback."
+msgstr ""
+
+#: framework/admin/version-control/version-control.php:408
+#: framework/admin/version-control/version-control.php:426
+msgid "Downgrade"
+msgstr ""
+
+#: framework/admin/version-control/version-control.php:413
+msgid "Wolmart Plugin"
+msgstr ""
+
+#: framework/class-theme-assets.php:352
+msgid "Loading..."
+msgstr ""
+
+#: framework/class-theme-assets.php:353
+msgid "Loading failed"
+msgstr ""
+
+#: framework/class-theme-assets.php:354
+msgid "The content could not be loaded."
+msgstr ""
+
+#: framework/class-theme-assets.php:364 framework/class-theme-assets.php:373
+msgid "Years"
+msgstr ""
+
+#: framework/class-theme-assets.php:365 framework/class-theme-assets.php:374
+msgid "Months"
+msgstr ""
+
+#: framework/class-theme-assets.php:366 framework/class-theme-assets.php:375
+msgid "Weeks"
+msgstr ""
+
+#: framework/class-theme-assets.php:367 framework/class-theme-assets.php:376
+msgid "Days"
+msgstr ""
+
+#: framework/class-theme-assets.php:368
+msgid "Hours"
+msgstr ""
+
+#: framework/class-theme-assets.php:369
+msgid "Minutes"
+msgstr ""
+
+#: framework/class-theme-assets.php:370
+msgid "Seconds"
+msgstr ""
+
+#: framework/class-theme-assets.php:377
+msgid "Hrs"
+msgstr ""
+
+#: framework/class-theme-assets.php:378
+msgid "Mins"
+msgstr ""
+
+#: framework/class-theme-assets.php:379
+msgid "Secs"
+msgstr ""
+
+#: framework/class-theme-assets.php:382 framework/class-theme-assets.php:391
+msgid "Year"
+msgstr ""
+
+#: framework/class-theme-assets.php:383 framework/class-theme-assets.php:392
+msgid "Month"
+msgstr ""
+
+#: framework/class-theme-assets.php:384 framework/class-theme-assets.php:393
+msgid "Week"
+msgstr ""
+
+#: framework/class-theme-assets.php:385 framework/class-theme-assets.php:394
+msgid "Day"
+msgstr ""
+
+#: framework/class-theme-assets.php:386 framework/class-theme-assets.php:395
+msgid "Hour"
+msgstr ""
+
+#: framework/class-theme-assets.php:387
+msgid "Minute"
+msgstr ""
+
+#: framework/class-theme-assets.php:388
+msgid "Second"
+msgstr ""
+
+#: framework/class-theme-assets.php:396
+msgid "Min"
+msgstr ""
+
+#: framework/class-theme-assets.php:397
+msgid "Sec"
+msgstr ""
+
+#: framework/class-theme-assets.php:453
+#, php-format
+msgid "all %d"
+msgstr ""
+
+#: framework/class-theme-assets.php:454
+msgid "You already voted!"
+msgstr ""
+
+#: framework/class-theme-assets.php:456
+msgid "View Cart"
+msgstr ""
+
+#: framework/class-theme-assets.php:457
+msgid "Add to wishlist"
+msgstr ""
+
+#: framework/class-theme-assets.php:458
+msgid "has been added to cart"
+msgstr ""
+
+#: framework/class-theme-assets.php:459
+msgid "Select a category"
+msgstr ""
+
+#: framework/class-theme-assets.php:460
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr ""
+
+#: framework/class-theme.php:52
+msgid "Currency Switcher"
+msgstr ""
+
+#: framework/class-theme.php:53
+msgid "Language Switcher"
+msgstr ""
+
+#: framework/class-theme.php:54
+msgid "Main Menu"
+msgstr ""
+
+#: framework/class-theme.php:103
+msgid "Small"
+msgstr ""
+
+#: framework/class-theme.php:109
+msgid "Normal"
+msgstr ""
+
+#: framework/class-theme.php:110
+msgid "N"
+msgstr ""
+
+#: framework/class-theme.php:115
+msgid "Medium"
+msgstr ""
+
+#: framework/class-theme.php:121
+msgid "Large"
+msgstr ""
+
+#: framework/class-theme.php:127
+msgid "Huge"
+msgstr ""
+
+#: framework/class-theme.php:128
+msgid "huge"
+msgstr ""
+
+#: framework/class-theme.php:140
+msgid "Primary"
+msgstr ""
+
+#: framework/class-theme.php:145
+msgid "Secondary"
+msgstr ""
+
+#: framework/class-theme.php:150
+msgid "Alert"
+msgstr ""
+
+#: framework/class-theme.php:160
+msgid "White"
+msgstr ""
+
+#: framework/class-theme.php:165
+msgid "Default Font Color"
+msgstr ""
+
+#: framework/class-theme.php:170
+msgid "Transparent"
+msgstr ""
+
+#: framework/class-theme.php:230
+msgid "Blog Sidebar"
+msgstr ""
+
+#: framework/class-theme.php:238
+msgid "Shop Sidebar"
+msgstr ""
+
+#: framework/class-theme.php:245
+msgid "Product Sidebar"
+msgstr ""
+
+#: framework/plugins/dokan/dokan.php:245
+msgid "Dokan Store Sidebar"
+msgstr ""
+
+#: framework/plugins/dokan/dokan.php:264 framework/theme-functions.php:98
+msgid "Facebook"
+msgstr ""
+
+#: framework/plugins/dokan/dokan.php:268
+msgid "Google"
+msgstr ""
+
+#: framework/plugins/dokan/dokan.php:272 framework/theme-functions.php:103
+msgid "Twitter"
+msgstr ""
+
+#: framework/plugins/dokan/dokan.php:276 framework/theme-functions.php:118
+msgid "Pinterest"
+msgstr ""
+
+#: framework/plugins/dokan/dokan.php:280
+msgid "Youtube"
+msgstr ""
+
+#: framework/plugins/dokan/dokan.php:284
+msgid "Instagram"
+msgstr ""
+
+#: framework/plugins/dokan/dokan.php:346 framework/plugins/dokan/dokan.php:402
+msgid "Vendor's More Products"
+msgstr ""
+
+#: framework/plugins/dokan/dokan.php:386
+msgid "Use theme sidebars too"
+msgstr ""
+
+#: framework/plugins/dokan/dokan.php:394
+msgid "Dokan Options"
+msgstr ""
+
+#: framework/plugins/dokan/dokan.php:529 framework/plugins/wc-vendors/wc-vendors.php:311
+#: framework/plugins/wcfm/wcfm.php:356 framework/plugins/wcmp/wcmp.php:433
+msgid "Signup as a vendor?"
+msgstr ""
+
+#: framework/plugins/dokan/dokan.php:559
+msgid "Sold By: "
+msgstr ""
+
+#: framework/plugins/dokan/dokan.php:594
+#: framework/templates/woocommerce/single-product/related.php:38
+#: framework/templates/woocommerce/single-product/up-sells.php:37
+msgid "More Products"
+msgstr ""
+
+#: framework/plugins/dokan/dokan.php:621
+msgid "No product has been found!"
+msgstr ""
+
+#: framework/plugins/wc-vendors/wc-vendors.php:164
+msgid "Twitter Username"
+msgstr ""
+
+#: framework/plugins/wc-vendors/wc-vendors.php:165
+msgid "YourTwitterUserHere"
+msgstr ""
+
+#: framework/plugins/wc-vendors/wc-vendors.php:167
+msgid "Your <a href=\"https://twitter.com/\">Twitter</a> username without the url."
+msgstr ""
+
+#: framework/plugins/wc-vendors/wc-vendors.php:176
+msgid "Instagram Username"
+msgstr ""
+
+#: framework/plugins/wc-vendors/wc-vendors.php:177
+msgid "YourInstagramUsername"
+msgstr ""
+
+#: framework/plugins/wc-vendors/wc-vendors.php:179
+msgid "Your <a href=\"https://instagram.com/\">Instagram</a> username without the url."
+msgstr ""
+
+#: framework/plugins/wc-vendors/wc-vendors.php:188
+msgid "Facebook URL"
+msgstr ""
+
+#: framework/plugins/wc-vendors/wc-vendors.php:189
+msgid "http://yourfacebookurl/here"
+msgstr ""
+
+#: framework/plugins/wc-vendors/wc-vendors.php:191
+msgid "Your <a href=\"https://facebook.com/\">Facebook</a> url."
+msgstr ""
+
+#: framework/plugins/wc-vendors/wc-vendors.php:200
+msgid "LinkedIn URL"
+msgstr ""
+
+#: framework/plugins/wc-vendors/wc-vendors.php:201
+msgid "http://linkedinurl.com/here"
+msgstr ""
+
+#: framework/plugins/wc-vendors/wc-vendors.php:203
+msgid "Your <a href=\"https://linkedin.com/\">LinkedIn</a> url."
+msgstr ""
+
+#: framework/plugins/wc-vendors/wc-vendors.php:212
+msgid "YouTube URL"
+msgstr ""
+
+#: framework/plugins/wc-vendors/wc-vendors.php:213
+msgid "http://youtube.com/here"
+msgstr ""
+
+#: framework/plugins/wc-vendors/wc-vendors.php:215
+msgid "Your <a href=\"https://youtube.com/\">Youtube</a> url."
+msgstr ""
+
+#: framework/plugins/wc-vendors/wc-vendors.php:224
+msgid "Pinterest URL"
+msgstr ""
+
+#: framework/plugins/wc-vendors/wc-vendors.php:225
+msgid "https://www.pinterest.com/username/"
+msgstr ""
+
+#: framework/plugins/wc-vendors/wc-vendors.php:227
+msgid "Your <a href=\"https://www.pinterest.com/\">Pinterest</a> url."
+msgstr ""
+
+#: framework/plugins/wc-vendors/wc-vendors.php:236
+msgid "Snapchat Username"
+msgstr ""
+
+#: framework/plugins/wc-vendors/wc-vendors.php:237
+msgid "snapchatUsername"
+msgstr ""
+
+#: framework/plugins/wc-vendors/wc-vendors.php:239
+msgid "Your snapchat username."
+msgstr ""
+
+#: framework/plugins/wc-vendors/wc-vendors.php:248
+msgid "Telegram Username"
+msgstr ""
+
+#: framework/plugins/wc-vendors/wc-vendors.php:249
+msgid "TelegramUsername"
+msgstr ""
+
+#: framework/plugins/wc-vendors/wc-vendors.php:251
+msgid "Your telegram username."
+msgstr ""
+
+#: framework/plugins/wc-vendors/wc-vendors.php:328
+msgid "WC Vendors Store Sidebar"
+msgstr ""
+
+#: framework/plugins/wcfm/wcfm.php:192
+msgid "Store Manager"
+msgstr ""
+
+#: framework/plugins/wcfm/wcfm.php:316
+msgid "Vendor Store Sidebar"
+msgstr ""
+
+#: framework/plugins/wcfm/wcfm.php:385
+msgid "Sold By:"
+msgstr ""
+
+#: framework/plugins/wcfm/wcfm.php:405
+msgid "Invalid nonce! Refresh your page and try again."
+msgstr ""
+
+#: framework/plugins/wcfm/wcfm.php:547
+msgid "Product Image Swatches"
+msgstr ""
+
+#: framework/plugins/wcfm/wcfm.php:552
+#, php-format
+msgid ""
+"Before you can add a variation you need to add some variation attributes on the "
+"Attributes tab. %1$sLearn more%2$s"
+msgstr ""
+
+#: framework/plugins/wcmp/wcmp.php:149
+msgid "WCMP Store Sidebar"
+msgstr ""
+
+#: framework/plugins/wcmp/wcmp.php:257
+msgid "Dashboard - manage your account here"
+msgstr ""
+
+#: framework/plugins/wcmp/wcmp.php:305
+msgid "Report Abuse"
+msgstr ""
+
+#: framework/plugins/wcmp/wcmp.php:315
+msgid "Report an abuse for product "
+msgstr ""
+
+#: framework/plugins/wcmp/wcmp.php:327
+msgid "Leave a message explaining the reasons for your abuse report"
+msgstr ""
+
+#: framework/plugins/wcmp/wcmp.php:333
+msgid "Report"
+msgstr ""
+
+#: framework/plugins/woocommerce/product-archive.php:85
+msgid "Show "
+msgstr ""
+
+#: framework/plugins/woocommerce/product-category.php:203
+msgid "Shop Now"
+msgstr ""
+
+#: framework/plugins/woocommerce/product-category.php:221
+#, php-format
+msgid "Subcategory %d"
+msgstr ""
+
+#: framework/plugins/woocommerce/product-loop.php:234
+#: framework/plugins/woocommerce/product-loop.php:281
+#: framework/plugins/woocommerce/product-loop.php:304
+#: framework/templates/woocommerce/wishlist-view-mobile.php:192
+#: framework/templates/woocommerce/wishlist-view.php:211
+msgid "Quick View"
+msgstr ""
+
+#: framework/plugins/woocommerce/product-loop.php:626
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: framework/plugins/woocommerce/product-loop.php:635
+msgid "reviews"
+msgstr ""
+
+#: framework/plugins/woocommerce/product-loop.php:697
+msgid "Added"
+msgstr ""
+
+#: framework/plugins/woocommerce/product-single.php:491
+msgid "Awaiting product image"
+msgstr ""
+
+#: framework/plugins/woocommerce/product-single.php:678
+msgid "Offer Ends In:"
+msgstr ""
+
+#: framework/plugins/woocommerce/product-single.php:679
+msgid "days"
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:408
+msgid "Product added to cart successfully"
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:471
+msgid "Default sorting"
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:472
+msgid "Sort by popularity"
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:473
+msgid "Sort by average rating"
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:474
+msgid "Sort by latest"
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:475
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:476
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:486
+msgid "Relevance"
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:530
+msgid "Cart is cleared."
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:590
+msgid "Company"
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:591
+msgid "Address"
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:592
+#: framework/templates/woocommerce/cart/shipping-calculator.php:74
+msgid "City"
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:593
+msgid "Country"
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:594
+msgid "Postcode"
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:595
+msgid "Phone"
+msgstr ""
+
+#: framework/templates/header/header.php:58
+msgid "Logo"
+msgstr ""
+
+#: framework/templates/posts/archive.php:90 page.php:29
+msgid "Nothing Found"
+msgstr ""
+
+#: framework/templates/posts/archive.php:97
+#, php-format
+msgid "Ready to publish your first post? %1$sGet started here%2$s."
+msgstr ""
+
+#: framework/templates/posts/archive.php:104
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with different keywords."
+msgstr ""
+
+#: framework/templates/posts/archive.php:106
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: framework/templates/posts/elements/blog-filter.php:28
+msgid "All Blog Posts"
+msgstr ""
+
+#: framework/templates/posts/elements/post-author.php:16
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: framework/templates/posts/elements/post-meta.php:13
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: framework/templates/posts/elements/post-meta.php:31
+#, php-format
+msgid "%1$s0%2$s Comments"
+msgstr ""
+
+#: framework/templates/posts/elements/post-meta.php:32
+#, php-format
+msgid "%1$s1%2$s Comment"
+msgstr ""
+
+#: framework/templates/posts/elements/post-meta.php:33
+#, php-format
+msgid "%1$s%2$s%3$s Comment"
+msgstr ""
+
+#: framework/templates/posts/elements/post-navigation.php:15
+msgid "Previous Post"
+msgstr ""
+
+#: framework/templates/posts/elements/post-navigation.php:16
+msgid "Next Post"
+msgstr ""
+
+#: framework/templates/posts/elements/post-tag.php:15
+msgid "Tags:"
+msgstr ""
+
+#: framework/templates/posts/post.php:156
+msgid "read more"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart-shipping.php:31
+#: framework/templates/woocommerce/cart/cart-totals.php:54
+#: framework/templates/woocommerce/cart/cart-totals.php:55
+msgid "Shipping"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart-shipping.php:52
+#, php-format
+msgid "Shipping to %s."
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart-shipping.php:53
+msgid "Change address"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart-shipping.php:55
+msgid "Shipping options will be updated during checkout."
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart-shipping.php:63
+msgid "Shipping costs are calculated during checkout."
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart-shipping.php:65
+msgid "Enter your address to view shipping options."
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart-shipping.php:68
+msgid ""
+"There are no shipping options available. Please ensure that your address has been "
+"entered correctly, or contact us if you need any help."
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart-shipping.php:71
+#, php-format
+msgid "No shipping options were found for %s."
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart-shipping.php:72
+msgid "Enter a different address"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart-totals.php:26
+msgid "Cart Totals"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart-totals.php:38
+#: framework/templates/woocommerce/cart/cart-totals.php:39
+#: framework/templates/woocommerce/cart/cart.php:38
+#: framework/templates/woocommerce/cart/cart.php:125
+msgid "Subtotal"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart-totals.php:74
+#, php-format
+msgid "(estimated for %s)"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart-totals.php:100
+#: framework/templates/woocommerce/cart/cart-totals.php:101
+#: framework/templates/woocommerce/checkout/thankyou.php:62
+msgid "Total"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart.php:37
+#: framework/templates/woocommerce/cart/cart.php:103
+#: framework/templates/woocommerce/global/quantity-input.php:28
+#: framework/templates/woocommerce/wishlist-view.php:84
+msgid "Quantity"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart.php:68
+#: framework/templates/woocommerce/cart/mini-cart.php:75
+msgid "Remove this item"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart.php:92
+msgid "Available on backorder"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart.php:141
+msgid "Continue Shopping"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart.php:143
+msgid "Clear cart"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart.php:151
+msgid "Update cart"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart.php:156
+msgid "Coupon Discount"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart.php:158
+msgid "Enter coupon code here..."
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart.php:159
+msgid "Apply coupon"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/mini-cart.php:27 framework/theme-actions.php:176
+msgid "Shopping Cart"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/mini-cart.php:120
+msgid "No products in the cart."
+msgstr ""
+
+#: framework/templates/woocommerce/cart/shipping-calculator.php:29
+msgid "Select a country / region&hellip;"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/shipping-calculator.php:48
+#: framework/templates/woocommerce/cart/shipping-calculator.php:53
+#: framework/templates/woocommerce/cart/shipping-calculator.php:65
+msgid "State / County"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/shipping-calculator.php:54
+msgid "Select an option&hellip;"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/shipping-calculator.php:80
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/shipping-calculator.php:84
+msgid "Update Totals"
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/form-login.php:26
+msgid "Returning customer?"
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/form-login.php:26
+msgid "Login"
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/form-login.php:32
+msgid ""
+"If you have shopped with us before, please enter your details below. If you are a new "
+"customer, please proceed to the Billing section."
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/payment.php:25
+msgid "Payment Methods"
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/payment.php:35
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. Please "
+"contact us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/payment.php:35
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/payment.php:44
+#, php-format
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please ensure you "
+"click the %1$sUpdate Totals%2$s button before placing your order. You may be charged "
+"more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/payment.php:46
+msgid "Update totals"
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/thankyou.php:31
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/merchant has "
+"declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/thankyou.php:34
+msgid "Pay"
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/thankyou.php:36
+msgid "My account"
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/thankyou.php:42
+#: framework/templates/woocommerce/checkout/thankyou.php:82
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/thankyou.php:47
+msgid "Order number"
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/thankyou.php:68
+msgid "Payment method"
+msgstr ""
+
+#: framework/templates/woocommerce/global/quantity-input.php:28
+#, php-format
+msgid "%s quantity"
+msgstr ""
+
+#: framework/templates/woocommerce/global/quantity-input.php:33
+#: framework/templates/woocommerce/wishlist-view-mobile.php:163
+msgid "Quantity:"
+msgstr ""
+
+#: framework/templates/woocommerce/global/quantity-input.php:45
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: framework/templates/woocommerce/global/quantity-input.php:47
+msgid "Minus"
+msgstr ""
+
+#: framework/templates/woocommerce/global/quantity-input.php:48
+msgid "Plus"
+msgstr ""
+
+#: framework/templates/woocommerce/loop/orderby.php:45
+msgid "Filters"
+msgstr ""
+
+#: framework/templates/woocommerce/loop/orderby.php:50
+msgid "Sort By :"
+msgstr ""
+
+#: framework/templates/woocommerce/loop/orderby.php:52
+msgid "Shop order"
+msgstr ""
+
+#: framework/templates/woocommerce/loop/orderby.php:76
+#: framework/templates/woocommerce/single-product/add-to-cart/variable.php:74
+msgid "Clean All"
+msgstr ""
+
+#: framework/templates/woocommerce/loop/result-count.php:28
+msgid "Showing the single result"
+msgstr ""
+
+#: framework/templates/woocommerce/loop/result-count.php:33
+#, php-format
+msgid "Showing %1$sall %2$d%3$s Product"
+msgid_plural "Showing %1$sall %2$d%3$s Products"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/templates/woocommerce/loop/result-count.php:40
+#, php-format
+msgctxt "with first and last result"
+msgid "Showing %4$s%1$d&ndash;%2$d of %3$d%5$s Product"
+msgid_plural "Showing %4$s%1$d&ndash;%2$d of %3$d%5$s Products"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/templates/woocommerce/loop/sale-flash.php:43
+msgid "Hot"
+msgstr ""
+
+#: framework/templates/woocommerce/loop/sale-flash.php:48
+msgid "New"
+msgstr ""
+
+#: framework/templates/woocommerce/loop/sale-flash.php:62
+#, php-format
+msgid "%d%% off"
+msgstr ""
+
+#: framework/templates/woocommerce/loop/sale-flash.php:68
+msgid "Out of Stock"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/downloads.php:32
+msgid "Downloads"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/downloads.php:46
+msgid "No downloads available yet."
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/downloads.php:48
+#: framework/templates/woocommerce/myaccount/orders.php:95
+msgid "Go Shop"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-edit-account.php:27
+msgid "Account Details"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-edit-account.php:36
+msgid "First name"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-edit-account.php:40
+msgid "Last name"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-edit-account.php:46
+msgid "Display name"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-edit-account.php:47
+msgid "This will be how your name will be displayed in the account section and in reviews"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-edit-account.php:52
+msgid "Email address"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-edit-account.php:57
+msgid "Biography"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-edit-account.php:62
+msgid "Password change"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-edit-account.php:66
+msgid "Current password "
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-edit-account.php:67
+#: framework/templates/woocommerce/myaccount/form-edit-account.php:74
+msgid "leave blank to leave unchanged"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-edit-account.php:73
+msgid "New password "
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-edit-account.php:79
+msgid "Confirm password"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-login.php:28
+#: framework/templates/woocommerce/myaccount/form-login.php:64
+msgid "Sign In"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-login.php:32
+#: framework/templates/woocommerce/myaccount/form-login.php:117
+msgid "Sign Up"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-login.php:44
+msgid "Username or email address"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-login.php:48
+#: framework/templates/woocommerce/myaccount/form-login.php:96
+msgid "Password"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-login.php:56
+msgid "Remember me"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-login.php:59
+msgid "Lost your password?"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-login.php:82
+msgid "Username"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-login.php:89
+msgid "Your Email address"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-login.php:102
+msgid "A password will be sent to your email address."
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-login.php:112
+#, php-format
+msgid "%1$sI agree to the %2$s"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/my-address.php:28
+#: framework/templates/woocommerce/myaccount/my-address.php:37
+#: framework/templates/woocommerce/order/order-details-customer.php:32
+msgid "Billing address"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/my-address.php:29
+#: framework/templates/woocommerce/order/order-details-customer.php:53
+msgid "Shipping address"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/my-address.php:49
+msgid "Addresses"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/my-address.php:54
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/my-address.php:74
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/my-address.php:95
+msgid "Edit Your Billing Address"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/my-address.php:95
+msgid "Edit Your Shipping Address"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/orders.php:29
+msgid "Orders"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/orders.php:58
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/orders.php:72
+#, php-format
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/templates/woocommerce/myaccount/orders.php:102
+msgid "Previous"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/orders.php:113
+msgid "No order has been made yet."
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/orders.php:114
+msgid "Browse products"
+msgstr ""
+
+#: framework/templates/woocommerce/order/order-details-customer.php:35
+#: framework/templates/woocommerce/order/order-details-customer.php:55
+#: framework/templates/woocommerce/single-product/meta.php:67
+msgid "N/A"
+msgstr ""
+
+#: framework/templates/woocommerce/order/order-details-customer.php:70
+msgid "Back To List"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:45
+msgid "Average Rating"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:48
+msgid "Rated"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:107
+msgid "Submit Your Review"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:107
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:109
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:152
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:156
+msgid "Your Rating Of This Product"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:157
+msgid "Rate&hellip;"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:158
+msgid "Perfect"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:159
+msgid "Good"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:160
+msgid "Average"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:161
+msgid "Not that bad"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:162
+msgid "Very poor"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:166
+msgid "Your review"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:173
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:182
+msgid "Show all"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:186
+msgid "Most Helpful Positive"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:191
+msgid "Most Helpful Negative"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:196
+msgid "Highest Rating"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:201
+msgid "Lowest Rating"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:209
+msgid "No positive review exists."
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:210
+msgid "No negative review exists."
+msgstr ""
+
+#: framework/templates/woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: framework/templates/woocommerce/single-product/meta.php:35
+msgid "Brand: "
+msgstr ""
+
+#: framework/templates/woocommerce/single-product/meta.php:58
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/templates/woocommerce/single-product/meta.php:63
+msgid "SKU:"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product/meta.php:74
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/templates/woocommerce/single-product/related.php:30
+msgid "Related products"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product/up-sells.php:29
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view-mobile.php:76
+#: framework/templates/woocommerce/wishlist-view.php:147
+msgid "Remove this product"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view-mobile.php:125
+msgid "Added on:"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view-mobile.php:136
+msgid "Price:"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view-mobile.php:178
+msgid "Stock:"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view-mobile.php:181
+#: framework/templates/woocommerce/wishlist-view.php:193
+msgid "Out of stock"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view-mobile.php:181
+#: framework/templates/woocommerce/wishlist-view.php:193
+msgid "In Stock"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view-mobile.php:215
+#: framework/templates/woocommerce/wishlist-view.php:231
+msgid "Move"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view-mobile.php:234
+#: framework/templates/woocommerce/wishlist-view.php:250
+msgid "Move to another list &rsaquo;"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view-mobile.php:247
+#: framework/templates/woocommerce/wishlist-view.php:274
+msgid "No products added to the wishlist"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view.php:95
+msgid "Stock status"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view.php:104
+msgid "Actions"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view.php:113
+msgid "Arrange"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view.php:203
+#, php-format
+msgid "Added on: %s"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view.php:279
+msgid "GO SHOP"
+msgstr ""
+
+#: framework/theme-actions.php:138
+msgid "Categories to search"
+msgstr ""
+
+#: framework/theme-actions.php:139
+msgid "Product categories to search"
+msgstr ""
+
+#: framework/theme-actions.php:184
+msgid "Order Complete"
+msgstr ""
+
+#: framework/theme-actions.php:469 framework/theme-actions.php:482
+msgid "Error:"
+msgstr ""
+
+#: framework/theme-actions.php:485
+msgid "Username is required."
+msgstr ""
+
+#: framework/theme-actions.php:515
+msgid "Login successful, redirecting..."
+msgstr ""
+
+#: framework/theme-actions.php:525
+msgid "Wrong username or password."
+msgstr ""
+
+#: framework/theme-actions.php:584
+msgid "Register successful, redirecting..."
+msgstr ""
+
+#: framework/theme-actions.php:594
+msgid "Register failed."
+msgstr ""
+
+#: framework/theme-actions.php:743
+msgid "Send"
+msgstr ""
+
+#: framework/theme-actions.php:852
+msgid "Your Name"
+msgstr ""
+
+#: framework/theme-actions.php:853
+msgid "Your Email"
+msgstr ""
+
+#: framework/theme-actions.php:857
+msgid "Write Your Review Here&hellip;"
+msgstr ""
+
+#: framework/theme-actions.php:859
+msgid "Submit Review"
+msgstr ""
+
+#: framework/theme-actions.php:931
+msgid "or Login With"
+msgstr ""
+
+#: framework/theme-actions.php:933
+msgid "or Signup With"
+msgstr ""
+
+#: framework/theme-functions.php:108
+msgid "Linkedin"
+msgstr ""
+
+#: framework/theme-functions.php:123
+msgid "Reddit"
+msgstr ""
+
+#: framework/theme-functions.php:128
+msgid "Tumblr"
+msgstr ""
+
+#: framework/theme-functions.php:133
+msgid "VK"
+msgstr ""
+
+#: framework/theme-functions.php:138
+msgid "WhatsApp"
+msgstr ""
+
+#: framework/theme-functions.php:143
+msgid "Xing"
+msgstr ""
+
+#: framework/theme-functions.php:599
+msgid "Pingback:"
+msgstr ""
+
+#: framework/theme-functions.php:599
+msgid "(Edit)"
+msgstr ""
+
+#: framework/theme-functions.php:613
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: framework/theme-functions.php:615
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: framework/theme-options.php:15
+msgid "Global Layout"
+msgstr ""
+
+#: framework/theme-options.php:20
+msgid "Shop Layout"
+msgstr ""
+
+#: framework/theme-options.php:33
+msgid "Product Page Layout"
+msgstr ""
+
+#: framework/theme-options.php:46
+msgid "Blog Layout"
+msgstr ""
+
+#: framework/theme-options.php:58
+msgid "Post Page Layout"
+msgstr ""
+
+#: framework/theme-options.php:70
+msgid "404 Page Layout"
+msgstr ""
+
+#: framework/theme-options.php:82
+msgid "Style / Additional CSS & Script"
+msgstr ""
+
+#: framework/theme-options.php:84
+msgid "Blog / Blog Global"
+msgstr ""
+
+#: framework/theme-options.php:85
+msgid "Shop / Product Type"
+msgstr ""
+
+#: framework/theme-options.php:86
+msgid "Shop / Category Type"
+msgstr ""
+
+#: framework/theme-options.php:87
+msgid "Product Page / Product Layout"
+msgstr ""
+
+#: framework/theme-options.php:88
+msgid "Product Page / Product Data"
+msgstr ""
+
+#: framework/theme-options.php:90
+msgid "Advanced / Lazy Load"
+msgstr ""
+
+#: framework/theme-options.php:91
+msgid "Advanced / Search"
+msgstr ""
+
+#: framework/theme-options.php:148
+msgid "Menu"
+msgstr ""
+
+#: framework/theme-options.php:241
+msgid "Description"
+msgstr ""
+
+#: framework/theme-options.php:245
+msgid "Buy Now"
+msgstr ""
+
+#: framework/theme-options.php:247
+msgid "Vendor Info"
+msgstr ""
+
+#: framework/theme-options.php:253
+msgid "More Products From This Vendor"
+msgstr ""
+
+#: framework/theme-options.php:262
+#, php-format
+msgid ""
+"We are using cookies to improve your experience on our website. By browsing this "
+"website, you agree to our %1$sPrivacy Policy%2$s"
+msgstr ""
+
+#: framework/theme-options.php:264
+msgid "I Agree"
+msgstr ""
+
+#: framework/theme-options.php:265
+msgid "Decline"
+msgstr ""
+
+#: framework/theme-options.php:348
+msgid "Someone Purchased"
+msgstr ""
+
+#: searchform.php:22
+msgid "Popular Searches:"
+msgstr ""
+
+#: searchform.php:36
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: searchform.php:88
+msgid "&nbsp;No Search keywords"
+msgstr ""
+
+#: searchform.php:98
+msgid "Search in Blog"
+msgstr ""
+
+#: searchform.php:118
+msgid "All Categories"
+msgstr ""
+
+#: searchform.php:141
+msgid "Search Button"
+msgstr ""
+
+#: wc-vendors/store/store-header.php:125
+msgid "Verified Vendor"
+msgstr ""
+
+#: wcfm/sold-by/wcfmmp-view-sold-by-tab.php:105
+msgid "Email:"
+msgstr ""

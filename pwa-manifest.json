@@ -1,0 +1,45 @@
+{
+    "name": "Digilois",
+    "short_name": "Digilois",
+    "description": "Digilois Online Store",
+    "icons": [
+        {
+            "src": "https:\/\/digilois.com\/wp-content\/uploads\/2023\/04\/LOIS-TOKEN-LOGO-PNG-192-192.png",
+            "sizes": "192x192",
+            "type": "image\/png",
+            "purpose": "any"
+        },
+        {
+            "src": "https:\/\/digilois.com\/wp-content\/uploads\/2023\/04\/LOIS-TOKEN-LOGO-PNG-192-192.png",
+            "sizes": "192x192",
+            "type": "image\/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "https:\/\/digilois.com\/wp-content\/uploads\/2023\/04\/LOIS-TOKEN-LOGO-PNG-512-512.png",
+            "sizes": "512x512",
+            "type": "image\/png",
+            "purpose": "any"
+        },
+        {
+            "src": "https:\/\/digilois.com\/wp-content\/uploads\/2023\/04\/LOIS-TOKEN-LOGO-PNG-512-512.png",
+            "sizes": "512x512",
+            "type": "image\/png",
+            "purpose": "maskable"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "https:\/\/digilois.com\/wp-content\/uploads\/2023\/04\/LOIS-TOKEN-LOGO-PNG-512-512-1.png",
+            "sizes": "512x512",
+            "type": "image\/png",
+            "purpose": "maskable"
+        }
+    ],
+    "background_color": "#D5E0EB",
+    "theme_color": "#D5E0EB",
+    "display": "standalone",
+    "orientation": "portrait",
+    "start_url": "https:\/\/digilois.com\/",
+    "scope": "https:\/\/digilois.com\/"
+}

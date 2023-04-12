@@ -1,0 +1,227 @@
+/* -------------------------------------------
+	Shop Sidebar
+		- Collapsible Widget
+		- Tag
+		- Filter Action
+		- Filter Items
+			(used in Widget, Select Menu)
+			(support submenu)
+			(support color item)
+		- Shop Sidebar
+		- Widget Products
+		- Fixed Sidebar for Shop Page
+			(>=992px)
+		- Remain Toggle for left, right sidebar
+------------------------------------------- */
+
+// Shop Sidebar
+.sidebar.shop-sidebar {
+	position: relative;
+
+	.sidebar-content {
+		padding: 2rem;
+	}
+
+	.filter-actions {
+		padding: 0 0 .8rem;
+
+		label {
+			font-size: 1.6rem;
+			font-weight: 600;
+			letter-spacing: -.025em;
+			color: var(--wolmart-dark-color, $dark-color);
+		}
+	}
+
+	.filter-clean {
+		color: var(--wolmart-body-color, $body-color);
+	}
+
+	.widget { 
+		margin-bottom: 1rem;
+	}
+
+	.widget-title {
+		border-bottom: 1px solid $border-color-light;
+	}
+
+	.btn-outline:not(:hover) {
+		color: var(--wolmart-primary-color, $primary-color);
+		background: #fff;
+	}
+	.sidebar-toggle-btn {
+		padding: .8em 1.04em;
+		min-width: 87px;
+		i {
+			font-size: 13px;
+		}
+	}
+
+	.yith-woo-ajax-navigation li,
+	.widget .wc-layered-nav-term,
+	.widget-price-filter li, 
+	.widget_product_categories .cat-item {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.yith-wcan-list .empty {
+		text-decoration: line-through;
+	}
+}
+
+.shop-sidebar.sidebar-side .wt-area {
+	position: relative;
+	padding: 0 2px;
+
+	&:before {
+		content: '';
+		position: absolute;
+		left: 0;
+		width: 100%;
+		bottom: -1.2rem;
+		height: 2px;
+		background-color: var(--wolmart-body-color, $body-color);
+	}
+}
+
+.sidebar {
+	.widget.widget-price-filter .wolmart-price-range-wrapper {
+		margin-top: .7rem;
+		ul {
+			margin-bottom: 1.3rem;
+		}
+	}
+	.wolmart-product-prices {
+		.chosen a {
+			color: var(--wolmart-primary-color, $primary-color);
+		}
+	}
+	.button {
+		line-height: 33px;
+		padding: 0 1.3rem;
+		font-size: 1.3rem;
+		font-weight: 400;
+		border-radius: $corner-normal;
+		text-transform: none;
+		vertical-align: middle;
+	}
+	.wolmart-price-range {
+		input {
+			color: #999;
+			border: 1px solid var(--wolmart-light-color, $light-color);
+			border-radius: $corner-normal;
+			width: 62px;
+			height: 37px;
+			padding: 3px 6px;
+			line-height: 37px;
+			text-align: center;
+			vertical-align: middle;
+		}
+		button {
+			margin-#{$left}: 1rem;
+		}
+		.delimiter {
+			width: 24px;
+			display: inline-block;
+			vertical-align: middle;
+			position: relative;
+
+			&:before {
+				content: '';
+				display: block;
+				width: 8px;
+				height: 2px;
+				margin: 0 auto;
+				background-color: #999;
+			}
+		}
+	}
+}
+
+.sidebar-fixed .yith-wcan-reset-navigation {
+	padding: 1rem;
+	font-size: 1.1rem ;
+	margin-top: 12px;
+}
+.shop-sidebar .yith-woo-ajax-reset-navigation {
+	display: none !important;
+}
+
+// Tag
+.sidebar .tag-cloud-link {
+	margin: side-values(0 10px 10px 0);
+	font-size: 1.3rem  !important;
+}
+
+// Filter Action, Price Slider, Filter Clean
+.toolbox .btn-link {
+	padding: 0;
+}
+.filter-clean {
+	font-size: 1.4rem ;
+	margin-#{$left}: auto;
+}
+
+// Products Widget - Single Product Page
+@if use(widget-products) {
+	.widget-products {
+		.widget-title {
+			display: inline-block;
+			position: relative;
+			z-index: 3;
+			border-bottom: 2px solid var(--wolmart-body-color, $body-color);
+		}
+		.sidebar &.widget .widget-title {
+			margin-bottom: -1px;
+		}
+		.slider-arrows i {
+			font-size: 1.7rem;
+		}
+		.slider-arrows {
+			top: -5.5rem;
+		}
+		&.slider-container {
+			position: relative;
+		}
+	}
+	.widget-block + .widget-products {
+		margin-top: 2.4rem;
+	}
+}
+
+// Responsive
+@include mq(lg) {
+	.sticky-sidebar-fixed > .filter-actions {
+		visibility: hidden;
+	}
+	.sidebar-fixed.shop-sidebar {
+		.sidebar-content {
+			padding: 0 0 2rem;
+		}
+		
+		// 5. Toggle Fixed Sidebar
+		transition: margin .4s;
+
+		+ .main-content {
+			//transition: flex-basis .4s, max-width .4s;
+			transition: flex .3s, max-width .3s;
+		}
+	}
+
+	.sticky-sidebar-wrapper.closed {
+		height: 0; // to solve issue occurs by closed sticky sidebar for fixed sidebar
+	}
+	.closed.left-sidebar {
+		margin-left: -25%;
+	}
+	.closed.right-sidebar {
+		margin-right: -25%;
+	}
+
+	.main-content-wrap .sidebar + .main-content {
+		flex: 1;
+		overflow: hidden;
+	}
+}

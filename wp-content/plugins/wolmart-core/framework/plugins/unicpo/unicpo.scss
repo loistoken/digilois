@@ -1,0 +1,16 @@
+/** Compatibility with Uni Cpo **/
+
+@import '../../../assets/sass/config';
+@import '../../../assets/sass/mixins';
+@import '../../../assets/sass/direction';
+
+// Calculate Button
+.uni-cpo-calculate-btn {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 2px;
+
+    i {
+        margin-#{$right}: 1rem;
+    }
+}

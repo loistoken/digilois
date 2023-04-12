@@ -1,0 +1,82 @@
+/**
+ * Wolmart Mini Logo
+ */
+ 
+$dir: ltr !default; 
+@import '../../../assets/sass/direction';
+
+.elementor-select-preset-list {
+    margin: 20px auto 0 !important;
+    padding: 0 25px !important;
+
+    .elementor-preset {
+        padding: 10px !important;
+    }
+} 
+
+.elementor-editor-section-settings {
+    top: 1px !important;
+    -webkit-transform: translateX(-50%) translateY(-100%) !important;
+    -ms-transform: translateX(-50%) translateY(-100%) !important;
+    transform: translateX(-50%) translateY(-100%) !important;
+    background-color: #71d7f7 !important;
+    -webkit-box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.05) !important;
+    box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.05) !important;
+}
+
+.elementor-editor-element-settings {
+    position: absolute !important;
+    margin: 0 !important;
+}
+
+.elementor-edit-area-active .elementor-widget-wrap.elementor-element-empty.card-body {
+	min-height: 0;
+}
+
+/**
+ * Wolmart Studio
+ */
+.elementor-studio-section-button {
+	position: relative;
+	overflow: hidden;
+	background: #2879FE;
+	vertical-align: middle;
+
+	> .wolmart-mini-logo {
+		transition: margin-top .2s;
+		transform: scale(2);
+		line-height: 0;
+
+		&::before {
+			width: 16px;
+			height: 16px;
+		}
+	}
+
+	> .eicon-insert {
+		position: absolute;
+		transform: translateY(60px);
+		transition: transform .2s;
+    }
+
+	&:hover {
+		> .wolmart-mini-logo {
+			margin-top: -70px;
+		}
+
+		> .eicon-insert {
+			transform: none;
+		}
+	}
+}
+
+/* Heade Builder */
+.elementor-editor-active .custom-header {
+    .elementor-widget-wolmart_header_mmenu_toggle .elementor-widget-empty-icon {
+        display: none;
+    }
+
+    .elementor-widget-wolmart_header_mmenu_toggle {
+        background: none;
+    }
+}

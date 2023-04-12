@@ -1,0 +1,17 @@
+2023-04-09T12:27:57+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in /home/digipotw/public_html/wp-admin/includes/class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 /home/digipotw/public_html/wp-admin/includes/class-bulk-upgrader-skin.php(156): sprintf()
+#1 /home/digipotw/public_html/wp-content/themes/wolmart/framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php(3667): Bulk_Upgrader_Skin->after()
+#2 /home/digipotw/public_html/wp-admin/includes/class-wp-upgrader.php(841): TGMPA_Bulk_Installer_Skin->after()
+#3 /home/digipotw/public_html/wp-content/themes/wolmart/framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php(3283): WP_Upgrader->run()
+#4 /home/digipotw/public_html/wp-content/themes/wolmart/framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php(3396): TGMPA_Bulk_Installer->run()
+#5 /home/digipotw/public_html/wp-content/themes/wolmart/framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php(3002): TGMPA_Bulk_Installer->bulk_install()
+#6 /home/digipotw/public_html/wp-content/themes/wolmart/framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php(746): TGMPA_List_Table->process_bulk_actions()
+#7 /home/digipotw/public_html/wp-includes/class-wp-hook.php(308): TGM_Plugin_Activation->install_plugins_page()
+#8 /home/digipotw/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /home/digipotw/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/digipotw/public_html/wp-admin/admin.php(259): do_action()
+#11 /home/digipotw/public_html/wp-admin/themes.php(10): require_once('/home/digipotw/...')
+#12 {main}
+  thrown in /home/digipotw/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 156
+

@@ -1,0 +1,27 @@
+2023-04-10T20:27:44+00:00 CRITICAL Uncaught Error: Call to a member function get_vendor_orders_by_product() on bool in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-mvx-ajax.php:815
+Stack trace:
+#0 /home/digipotw/public_html/wp-includes/class-wp-hook.php(308): MVX_Ajax->unassign_vendor()
+#1 /home/digipotw/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /home/digipotw/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/digipotw/public_html/wp-admin/admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-mvx-ajax.php on line 815
+
+2023-04-10T20:27:51+00:00 CRITICAL Uncaught Error: Call to a member function get_vendor_orders_by_product() on bool in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-mvx-ajax.php:815
+Stack trace:
+#0 /home/digipotw/public_html/wp-includes/class-wp-hook.php(308): MVX_Ajax->unassign_vendor()
+#1 /home/digipotw/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /home/digipotw/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/digipotw/public_html/wp-admin/admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-mvx-ajax.php on line 815
+
+2023-04-10T20:27:54+00:00 CRITICAL Uncaught Error: Call to a member function get_vendor_orders_by_product() on bool in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-mvx-ajax.php:815
+Stack trace:
+#0 /home/digipotw/public_html/wp-includes/class-wp-hook.php(308): MVX_Ajax->unassign_vendor()
+#1 /home/digipotw/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /home/digipotw/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/digipotw/public_html/wp-admin/admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/classes/class-mvx-ajax.php on line 815
+

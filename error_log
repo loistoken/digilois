@@ -1,0 +1,91 @@
+[09-Apr-2023 12:31:58 UTC] Cron reschedule event error for hook: migrate_multivendor_order_table, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"inevery_1minute","args":[],"interval":300}
+[10-Apr-2023 17:22:33 UTC] PHP Warning:  Undefined variable $option_lists in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/api/class-mvx-rest-controller.php on line 5329
+[10-Apr-2023 17:24:34 UTC] PHP Warning:  Undefined variable $option_lists in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/api/class-mvx-rest-controller.php on line 5329
+[10-Apr-2023 17:37:52 UTC] PHP Warning:  Undefined variable $option_lists in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/api/class-mvx-rest-controller.php on line 5329
+[10-Apr-2023 17:46:10 UTC] PHP Warning:  Undefined array key "key" in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/api/class-mvx-rest-controller.php on line 5551
+[10-Apr-2023 18:17:09 UTC] PHP Warning:  Undefined variable $WCMp in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[10-Apr-2023 18:17:09 UTC] PHP Warning:  Attempt to read property "plugin_url" on null in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[10-Apr-2023 18:46:18 UTC] PHP Warning:  Undefined variable $WCMp in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[10-Apr-2023 18:46:18 UTC] PHP Warning:  Attempt to read property "plugin_url" on null in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[10-Apr-2023 19:15:06 UTC] PHP Warning:  Undefined variable $WCMp in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[10-Apr-2023 19:15:06 UTC] PHP Warning:  Attempt to read property "plugin_url" on null in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[10-Apr-2023 19:30:20 UTC] PHP Warning:  Undefined variable $WCMp in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[10-Apr-2023 19:30:20 UTC] PHP Warning:  Attempt to read property "plugin_url" on null in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[10-Apr-2023 20:07:05 UTC] PHP Warning:  Undefined variable $WCMp in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[10-Apr-2023 20:07:05 UTC] PHP Warning:  Attempt to read property "plugin_url" on null in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[10-Apr-2023 20:10:17 UTC] PHP Warning:  Undefined variable $WCMp in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[10-Apr-2023 20:10:17 UTC] PHP Warning:  Attempt to read property "plugin_url" on null in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[10-Apr-2023 20:27:20 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[10-Apr-2023 20:27:20 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[10-Apr-2023 20:34:24 UTC] The Automattic\WooCommerce\Admin\API\Options::update_options function is deprecated since version 3.1.
+[10-Apr-2023 20:34:24 UTC] The Automattic\WooCommerce\Admin\API\Options::update_options function is deprecated since version 3.1.
+[10-Apr-2023 20:34:24 UTC] The Automattic\WooCommerce\Admin\API\Options::update_options function is deprecated since version 3.1.
+[10-Apr-2023 20:34:24 UTC] The Automattic\WooCommerce\Admin\API\Options::update_options function is deprecated since version 3.1.
+[11-Apr-2023 05:08:11 UTC] PHP Warning:  Undefined array key "key" in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/api/class-mvx-rest-controller.php on line 5551
+[11-Apr-2023 05:08:18 UTC] PHP Warning:  Undefined array key "key" in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/api/class-mvx-rest-controller.php on line 5551
+[11-Apr-2023 05:08:24 UTC] PHP Warning:  Undefined array key "key" in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/api/class-mvx-rest-controller.php on line 5551
+[11-Apr-2023 05:08:24 UTC] PHP Warning:  Undefined array key "key" in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/api/class-mvx-rest-controller.php on line 5551
+[11-Apr-2023 05:08:25 UTC] PHP Warning:  Undefined array key "key" in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/api/class-mvx-rest-controller.php on line 5551
+[11-Apr-2023 05:08:25 UTC] PHP Warning:  Undefined array key "key" in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/api/class-mvx-rest-controller.php on line 5551
+[11-Apr-2023 05:09:02 UTC] PHP Warning:  Undefined array key "key" in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/api/class-mvx-rest-controller.php on line 5551
+[11-Apr-2023 05:09:13 UTC] PHP Warning:  Undefined array key "key" in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/api/class-mvx-rest-controller.php on line 5551
+[11-Apr-2023 05:09:18 UTC] PHP Warning:  Undefined array key "key" in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/api/class-mvx-rest-controller.php on line 5551
+[11-Apr-2023 05:09:18 UTC] PHP Warning:  Undefined array key "key" in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/api/class-mvx-rest-controller.php on line 5551
+[11-Apr-2023 05:09:18 UTC] PHP Warning:  Undefined array key "key" in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/api/class-mvx-rest-controller.php on line 5551
+[11-Apr-2023 05:09:18 UTC] PHP Warning:  Undefined array key "key" in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/api/class-mvx-rest-controller.php on line 5551
+[11-Apr-2023 05:09:24 UTC] PHP Warning:  Undefined array key "key" in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/api/class-mvx-rest-controller.php on line 5551
+[11-Apr-2023 05:09:25 UTC] PHP Warning:  Undefined array key "key" in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/api/class-mvx-rest-controller.php on line 5551
+[11-Apr-2023 05:09:26 UTC] PHP Warning:  Undefined array key "key" in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/api/class-mvx-rest-controller.php on line 5551
+[11-Apr-2023 05:09:29 UTC] PHP Warning:  Undefined array key "key" in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/api/class-mvx-rest-controller.php on line 5551
+[11-Apr-2023 05:09:29 UTC] PHP Warning:  Undefined array key "key" in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/api/class-mvx-rest-controller.php on line 5551
+[11-Apr-2023 05:09:29 UTC] PHP Warning:  Undefined array key "key" in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/api/class-mvx-rest-controller.php on line 5551
+[11-Apr-2023 05:09:29 UTC] PHP Warning:  Undefined array key "key" in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/api/class-mvx-rest-controller.php on line 5551
+[11-Apr-2023 05:09:29 UTC] PHP Warning:  Undefined array key "key" in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/api/class-mvx-rest-controller.php on line 5551
+[11-Apr-2023 05:19:57 UTC] PHP Warning:  Undefined variable $WCMp in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[11-Apr-2023 05:19:57 UTC] PHP Warning:  Attempt to read property "plugin_url" on null in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[11-Apr-2023 05:19:57 UTC] PHP Warning:  Undefined variable $WCMp in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[11-Apr-2023 05:19:57 UTC] PHP Warning:  Attempt to read property "plugin_url" on null in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[11-Apr-2023 05:23:00 UTC] PHP Warning:  Undefined variable $WCMp in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[11-Apr-2023 05:23:00 UTC] PHP Warning:  Attempt to read property "plugin_url" on null in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[11-Apr-2023 05:23:00 UTC] PHP Warning:  Undefined variable $WCMp in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[11-Apr-2023 05:23:00 UTC] PHP Warning:  Attempt to read property "plugin_url" on null in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[11-Apr-2023 05:25:52 UTC] PHP Warning:  Undefined array key "key" in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/api/class-mvx-rest-controller.php on line 5551
+[11-Apr-2023 05:27:12 UTC] PHP Warning:  Undefined array key "key" in /home/digipotw/public_html/wp-content/plugins/dc-woocommerce-multi-vendor/api/class-mvx-rest-controller.php on line 5551
+[11-Apr-2023 06:02:59 UTC] PHP Warning:  Undefined variable $WCMp in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[11-Apr-2023 06:02:59 UTC] PHP Warning:  Attempt to read property "plugin_url" on null in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[11-Apr-2023 06:02:59 UTC] PHP Warning:  Undefined variable $WCMp in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[11-Apr-2023 06:02:59 UTC] PHP Warning:  Attempt to read property "plugin_url" on null in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[11-Apr-2023 06:03:16 UTC] PHP Warning:  Undefined variable $WCMp in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[11-Apr-2023 06:03:16 UTC] PHP Warning:  Attempt to read property "plugin_url" on null in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[11-Apr-2023 06:03:16 UTC] PHP Warning:  Undefined variable $WCMp in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[11-Apr-2023 06:03:16 UTC] PHP Warning:  Attempt to read property "plugin_url" on null in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[11-Apr-2023 06:04:28 UTC] PHP Warning:  Undefined variable $WCMp in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[11-Apr-2023 06:04:28 UTC] PHP Warning:  Attempt to read property "plugin_url" on null in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[11-Apr-2023 06:04:28 UTC] PHP Warning:  Undefined variable $WCMp in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[11-Apr-2023 06:04:28 UTC] PHP Warning:  Attempt to read property "plugin_url" on null in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[11-Apr-2023 06:04:34 UTC] PHP Warning:  Undefined variable $WCMp in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[11-Apr-2023 06:04:34 UTC] PHP Warning:  Attempt to read property "plugin_url" on null in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[11-Apr-2023 06:04:34 UTC] PHP Warning:  Undefined variable $WCMp in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[11-Apr-2023 06:04:34 UTC] PHP Warning:  Attempt to read property "plugin_url" on null in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[11-Apr-2023 06:10:31 UTC] PHP Warning:  Undefined variable $WCMp in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[11-Apr-2023 06:10:31 UTC] PHP Warning:  Attempt to read property "plugin_url" on null in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[11-Apr-2023 06:10:31 UTC] PHP Warning:  Undefined variable $WCMp in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[11-Apr-2023 06:10:31 UTC] PHP Warning:  Attempt to read property "plugin_url" on null in /home/digipotw/public_html/wp-content/plugins/wolmart-core/framework/addons/vendors/vendors.php on line 765
+[11-Apr-2023 11:49:24 UTC] PHP Warning:  Attempt to read property "count" on null in /home/digipotw/public_html/wp-includes/class-wp-term-query.php on line 844
+[11-Apr-2023 11:49:26 UTC] PHP Warning:  Attempt to read property "count" on null in /home/digipotw/public_html/wp-includes/class-wp-term-query.php on line 844
+[11-Apr-2023 11:49:32 UTC] PHP Warning:  Attempt to read property "count" on null in /home/digipotw/public_html/wp-includes/class-wp-term-query.php on line 844
+[11-Apr-2023 11:49:33 UTC] PHP Warning:  Attempt to read property "count" on null in /home/digipotw/public_html/wp-includes/class-wp-term-query.php on line 844
+[11-Apr-2023 17:22:55 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Apr-2023 17:22:55 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Apr-2023 23:22:54 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Apr-2023 23:22:54 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Apr-2023 23:22:54 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Apr-2023 23:22:54 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Apr-2023 23:22:54 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Apr-2023 23:22:54 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Apr-2023 23:25:05 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Apr-2023 23:25:05 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Apr-2023 23:25:05 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Apr-2023 23:25:05 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Apr-2023 23:25:05 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Apr-2023 23:25:05 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.

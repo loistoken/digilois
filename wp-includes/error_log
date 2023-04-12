@@ -1,0 +1,4 @@
+[12-Apr-2023 13:13:20 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/digipotw/public_html/wp-includes/functions.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/digipotw/public_html/wp-includes/functions.php on line 8

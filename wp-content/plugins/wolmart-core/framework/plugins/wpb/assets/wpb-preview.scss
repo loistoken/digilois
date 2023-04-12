@@ -1,0 +1,197 @@
+$dir: ltr !default;
+@import '../../../assets/sass/direction';
+.vc_row.wpb_row {
+    > .vc_vc_column > .vc_column_container {
+        padding: 0;
+    }
+    &.vc_column-gap-1 {
+        margin-left: -0.5px;
+        margin-right: -0.5px;
+        > .vc_vc_column > .vc_column_container {
+            padding: .5px;
+        }
+    }
+    &.vc_column-gap-2 {
+        margin-left: -1px;
+        margin-right: -1px;
+        > .vc_vc_column > .vc_column_container {
+            padding: 1px;
+        }
+    }
+    &.vc_column-gap-3 {
+        margin-left: -1.5px;
+        margin-right: -1.5px;
+        > .vc_vc_column > .vc_column_container {
+            padding: 1.5px;
+        }
+    }
+    &.vc_column-gap-4 {
+        margin-left: -2px;
+        margin-right: -2px;
+        > .vc_vc_column > .vc_column_container {
+            padding: 2px;
+        }
+    }
+    &.vc_column-gap-5 {
+        margin-left: -2.5px;
+        margin-right: -2.5px;
+        > .vc_vc_column > .vc_column_container {
+            padding: 2.5px;
+        }
+    }
+    &.vc_column-gap-10 {
+        margin-left: -5px;
+        margin-right: -5px;
+        > .vc_vc_column > .vc_column_container {
+            padding: 5px;
+        }
+    }
+    &.vc_column-gap-15 {
+        margin-left: -7.5px;
+        margin-right: -7.5px;
+        > .vc_vc_column > .vc_column_container {
+            padding: 7.5px;
+        }
+    }
+    &.vc_column-gap-20 {
+        margin-left: -10px;
+        margin-right: -10px;
+        > .vc_vc_column > .vc_column_container {
+            padding: 10px;
+        }
+    }
+    &.vc_column-gap-25 {
+        margin-left: -12.5px;
+        margin-right: -12.5px;
+        > .vc_vc_column > .vc_column_container {
+            padding: 12.5px;
+        }
+    }
+    &.vc_column-gap-30 {
+        margin-left: -15px;
+        margin-right: -15px;
+        > .vc_vc_column > .vc_column_container {
+            padding: 15px;
+        }
+    }
+    &.vc_column-gap-35 {
+        margin-left: -17.5px;
+        margin-right: -17.5px;
+        > .vc_vc_column > .vc_column_container {
+            padding: 17.5px;
+        }
+    }
+    &.vc_column-gap-default {
+        margin-left: -10px;
+        margin-right: -10px;
+        > .vc_vc_column > .vc_column_container {
+            padding: 10px;
+        }
+    }    
+}
+
+.vc_ui-button.vc_ui-button-info:focus, .vc_ui-button.vc_ui-button-info:hover {
+    color: #fff;
+}
+
+// popup template builder
+body.wolmart_popup_template {
+    main {
+        min-height: 100vh;
+    }
+
+    .popup-overlay {
+        content: '';
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: rgba(#000, 0.8);
+        z-index: 10001;
+    }
+
+    .popup-container {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        padding-bottom: 0;
+        background: #fff;
+        width: calc(100% - 40px);
+        max-width: 600px;
+        z-index: 10001;
+    }
+}
+
+/* Control bar */
+.wolmart-carousel-container,
+.wolmart-masonry-container,
+.wolmart-masonry-item-container,
+.wolmart-shareicon-container,
+.wolmart-tab-container,
+.wolmart-tab-item-container,
+.wolmart-accordion-container,
+.wolmart-accordion-item-container,
+.wolmart-filter-container {
+    margin-bottom: 30px;
+
+    & ~ .vc_controls .vc_controls-out-tl {
+        z-index: 1002;
+        top: 50%;
+        left: 50%;
+        background-color: #f3af1c;
+        border: 0 solid transparent;
+        transform: translate(-50%,-50%);
+        border-radius: 3px;
+    }
+}
+
+/* Wolmart Banner */
+.compose-mode .vc_wpb_wolmart_banner > .vc_controls > .vc_controls-out-tl {
+	#{$left}: 280px;
+    z-index: 1003;
+}
+.compose-mode .vc_wpb_wolmart_banner > .vc_controls > .vc_controls-bc {
+	bottom: 50%;
+	z-index: 2;
+}
+/* Wolmart Banner Layer */
+.compose-mode .vc_wpb_wolmart_banner_layer > .vc_controls > .vc_controls-out-tl {
+	left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    z-index: 1004;
+}
+.compose-mode .vc_wpb_wolmart_banner_layer > .vc_controls > .vc_controls-bc {
+	bottom: 45%;
+	z-index: 3;
+}
+.banner .vc_wpb_wolmart_banner_layer {
+	position: static;
+}
+
+/* Masonry */
+.wolmart-masonry-container.grid > .grid-item {
+    padding: 0;
+
+    > .wolmart-masonry-item-container {
+        height: 100%;
+    }
+
+    &.gutter-no > .wolmart-masonry-item-container {
+        padding: 0;
+    }
+    &.gutter-xs > .wolmart-masonry-item-container {
+        padding: 1px;
+    }
+    &.gutter-sm > .wolmart-masonry-item-container {
+        padding: 5px;
+    }
+    &.gutter-md > .wolmart-masonry-item-container {
+        padding: 10px;
+    }
+    &.gutter-lg > .wolmart-masonry-item-container {
+        padding: 15px;
+    }
+}

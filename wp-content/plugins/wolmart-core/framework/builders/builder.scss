@@ -1,0 +1,309 @@
+$dir: ltr !default; 
+@import '../assets/sass/direction';
+
+$primary-color: #2879FE;
+
+textarea {
+    padding: 5px;
+}
+
+#page-option .inside {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.rwmb-meta-box .rwmb-edit-media,
+.rwmb-meta-box .rwmb-remove-media {
+    font-size: 14px;
+    margin-#{$right}: 5px;
+}
+
+.rwmb-field ul,
+.rwmb-field ol {
+    padding: 0;
+    list-style: none;
+}
+
+.rwmb-meta-box {
+    .rwmb-label {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .rwmb-label ~ .rwmb-input {
+        width: 100%;
+    }
+
+    .rwmb-media-list:not(:empty) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+#poststuff .inside {
+    margin-bottom: 2rem;
+}
+
+.edit-post-layout .interface-interface-skeleton__content {
+    background-color: #fff;
+}
+
+.edit-post-layout__metaboxes:not(:empty) {
+    padding: 2rem 0;
+}
+
+.posts.wp-list-table .column-product_cat,
+.posts.wp-list-table .column-product_cat,
+.posts.wp-list-table .column-product_tag,
+.posts.wp-list-table .column-product_tag,
+.posts.wp-list-table .column-product_brand,
+.posts.wp-list-table .column-product_brand {
+    width: 10% !important;
+}
+
+#wolmart-product-360-view .rwmb-media-list{
+    width:calc(100% + 20px);
+    margin-left:-10px;
+    margin-right:-10px;
+    padding-top:5px;
+}
+#wolmart-product-360-view .rwmb-image-item.thumbnail{
+    width:33.33%;
+}
+#wolmart-product-360-view .rwmb-image-item.thumbnail img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+#wolmart-product-360-view .rwmb-media-add{
+    margin-top:15px;
+}
+#wolmart-product-videos .rwmb-input .rwmb-media-status{
+    display:none;
+}
+
+/* Templates Builder */
+.wolmart-admin-notices + .wrap h1,
+.wolmart-admin-notices + .wrap .page-title-action,
+.templates-builder h1,
+.templates-builder .page-title-action {
+    display: none !important;
+}
+.wolmart-admin-notices + .wrap {
+    background: #fff;
+    padding: 30px 40px;
+    margin: -90px 30px 0 10px;
+    .updated,
+    .error,
+    .notice {
+        display: none;
+    }
+    #wolmart-template-nav .nav-tab {
+        background: #fff;
+        border: 0;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 12px 15px;
+        font-family: 'Poppins';
+    }
+}
+
+div.template-builder {
+    padding: 32px 40px 32px 40px;
+}
+#wolmart-template-nav {
+    padding-top: 0;
+    margin-bottom: 2em;
+
+    + #wolmart_new_template {
+        display: none;
+    }
+
+    .nav-tab-active {
+        pointer-events: none;
+    }
+}
+table.posts #template_type {
+    width: 200px;
+}
+.wolmart-wrap #posts-filter {
+    .search-box,
+    .tablenav {
+        select,
+        input {
+            height: 40px;
+        }
+    }
+    .tablenav-pages input {
+        height: auto;
+    }
+}
+.templates-builder {
+    padding: 32px 40px;
+    text-align: center;
+
+    select:hover {
+        color: #333;
+    }
+    .wrap {
+        margin: 0;
+        text-align: #{$left};
+    }
+    .wrap input[type=checkbox] {
+        top: -1px;
+        margin-#{$left}: 10px;
+        width: 18px;
+        height: 18px;
+    }
+
+    form a {
+        color: #666;
+
+        &.current {
+            color: $primary-color;
+        }
+
+        &:hover {
+            color: #00a0d2;
+            text-decoration: underline;
+        }
+    }
+
+    .row-title {
+        font-weight :400;
+    }
+
+    .nav-tab {
+        background: none;
+        border: none;
+        padding: 12px 15px 10px;
+        margin: side-values(0 5px -1px 0);
+        margin-bottom: -1px;
+        border-bottom: 2px solid transparent;
+        color: #666;
+    }
+
+    @media (max-width: 1199px) {
+        p.search-box {
+            margin-bottom: 10px;
+        }
+    }
+    
+    @media (max-width: 767px) {
+        .subsubsub {
+            float: none;
+            text-align: left;
+        }
+        p.search-box {
+            display: flex;
+            position: relative;
+            height: auto;
+        }
+    }
+    @media (max-width: 479px) {
+        p.search-box {
+            display: flex;
+        }
+    }
+
+    .nav-tab-active, .nav-tab:hover {
+        color: #000;
+        border-bottom-color: $primary-color;
+    }
+
+    h1.wp-heading-inline, h1+a {
+        display: none;
+    }
+
+    .subsubsub {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .tablenav {
+        padding: 0;
+        margin: 0;
+        .actions {
+            margin-bottom: 20px;
+        }
+    }
+    .tablenav-pages {
+        margin-top: 10px;
+    }
+
+    .page-title-action {
+        margin-bottom: 1rem;
+        color: #fff;
+    }
+
+    .wp-list-table {
+        margin-bottom: 20px;
+    }
+
+    .template_type.column-template_type a {
+        display: inline-block;
+        margin-top: 2px;
+        padding: 2px 12px;
+        background: #999;
+        color: #fff;
+        border-radius: 2px;
+        text-transform: capitalize;
+        text-decoration: none;
+        transition: background .3s;
+
+        &:hover {
+            background: #666;
+        }
+    }
+}
+
+/* Product Image Comment */
+.wolmart-comment-img-preview-area {
+    display: flex;
+    flex-wrap: wrap;
+    > * {
+        padding: 5px;
+        flex: 0 0 100px;
+        max-width: 100px;
+    }
+    .comment-img-wrapper {
+        position: relative;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    .button-image-remove {
+        position: absolute;
+        top: -3px;
+        right: -3px;
+        text-decoration: none;
+        width: 20px;
+        height: 20px;
+        color: #333;
+        background-color: #fff;
+        border-radius: 50%;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, .2);
+        text-align: center;
+
+        i {
+            line-height: 20px;
+        }
+    }
+}
+.wolmart-comment-action-wrapper {
+    padding: 5px;
+}
+
+/* Sidebars Builder */
+.sidebars-builder #sidebar_table {
+    border: 0;
+}
+.wolmart-admin-panel-body.sidebars-builder {
+    padding: 25px 0;
+}
+@media (min-width: 768px) {
+    .sidebars-builder .column-title {
+        padding-left: 40px;
+    }
+}
